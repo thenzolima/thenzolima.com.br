@@ -13,8 +13,8 @@
 Primeiro, é preciso instalar [hugo](https://gohugo.io/installation/) ver `0.124.1` ou superior.
 
 ```shell
-git clone https://github.com/thenzolima/thenzolima.github.io
-cd thenzolima.github.io/
+git clone https://github.com/thenzolima/thenzolima.com.br
+cd thenzolima.com.br/
 hugo server
 ```
 
