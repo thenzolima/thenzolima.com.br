@@ -1,0 +1,132 @@
+.main-index{
+    display: flex;
+    margin: 5% auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero{
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+.hero h1{
+    margin: 0;
+}
+
+.avatar{
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid var(--bgSoft2);
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.card-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px
+}
+
+.card{
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.next{
+    color: var(--white);
+    width: 320px;
+    height:240px;
+    background-color: var(--bgSoft);
+    display: flex;
+}
+
+.card-text{
+    font-size: 15px;
+    width: 100%;
+    color: var(--text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card img{
+    width: 320px;
+    height: auto;
+}
+
+.posts-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts-title a{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: var(--white);
+    font-size: 15px;
+}
+
+.contato{
+    background-color: var(--bgSoft);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.contato div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.contato div a{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    width: 100%;
+    background-color: var(--bgSoft2);
+    padding:10px;
+    border-radius: 5px;
+    align-items: center;
+    color: var(--white);
+    
+}
+
+@media screen and (max-width:576px){
+    .card-grid{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contato div{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .card img{
+        width:100%;
+    }
+}

@@ -1,0 +1,43 @@
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    const hamburger = document.querySelector('.nav-btn');
+
+    hamburger.onclick = function(){
+        const nav = document.querySelector('.navbar')
+        const navbar = document.querySelector('.nav-links');
+        const body = document.querySelector('body');
+
+        navbar.classList.toggle("active");
+        hamburger.classList.toggle("active");
+        body.classList.toggle("active");
+        nav.classList.toggle("active");
+    }
+
+    const btns = document.querySelectorAll('.btn');
+
+    btns.forEach(function(btn) {
+        btn.onclick = function copyEmail(event) {
+            event.preventDefault();
+            const copyText = document.querySelector('.email');
+          
+            copyText.select();
+            copyText.setSelectionRange(0, copyText.value.length);
+            document.execCommand("copy");
+            btn.innerHTML = "<ion-icon name='at'></ion-icon> Copiado!";
+          
+            setTimeout(function() {
+                btn.innerHTML = "<ion-icon name='at'></ion-icon> Copiar Email";
+            }, 800);
+    
+            return false;
+        };
+    });
+
+    const card = document.querySelector('.card');
+    const modal = document.querySelector('dialog');
+
+    
+    
+
+</script>

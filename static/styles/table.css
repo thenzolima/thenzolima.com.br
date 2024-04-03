@@ -1,0 +1,35 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid var(--text);
+    color: var(--text);
+    margin-bottom: 20px;
+}
+
+th{
+  background-color: var(--bgSoft);
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:first-child {
+    background-color: var(--bgSoft2);
+}
+
+tr:nth-child(even) {
+    background-color: var(--bgSoft);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--bgSoft2);
+}
+
+td.white {
+    background-color: var(--white);
+}

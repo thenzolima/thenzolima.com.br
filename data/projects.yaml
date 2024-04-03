@@ -1,0 +1,10 @@
+data:
+  - title: "Scot Scot"
+    img: "/img/scotscot.png"
+    url: "https://www.thenzolima.com.br/scotscot/"
+  - title: "Posterpack"
+    img: "/img/poster.png"
+    url: "https://www.thenzolima.com.br/posterpack/"
+  - title: "Luz, Câmera e Cinema"
+    img: "/img/camera.png"
+    url: "https://www.thenzolima.com.br/LCC/"

@@ -1,0 +1,39 @@
+    .single{
+        display: flex;
+        flex-direction: column;
+        margin: 5% auto;
+    }
+
+    .singleContent{
+        line-height: 1.6;
+    }
+
+    .singleContent :is(h1,h2,h3,p){
+        margin: 20px 0;
+    }
+
+    .singleContent img{
+        width: 100%;
+    }
+
+    .singleContent ul{
+        padding-inline-start: 40px;
+    }
+
+    .singleContent code{
+        padding: 20px;
+        background-color: var(--bgSoft);
+        display: block;
+    }
+
+    .singleHeadTitle{
+        margin: 0;
+    }
+
+blockquote{
+    background-color: var(--bgSoft);
+    padding:10px 10px 10px 25px;
+    margin-bottom: 15px;
+    color: var(--white);
+    border-left:5px solid var(--white) ;
+}

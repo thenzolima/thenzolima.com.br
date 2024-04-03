@@ -1,0 +1,30 @@
++++
+title= "Use as férias para descansar."
+date= 2023-08-28
+draft= false
+tags= ["Férias","Dicas"]
+author= "Enzo Lima"
+description= "'Em uma época obcecada por velocidade, desacelerar requer treinamento especial' - Austin Kleon."
++++
+
+Agosto não é um mês muito comum de se tirar férias, mas tive duas semanas de recesso na minha vida estudantil. E acabei pensando em algo nesse período.
+
+O título desse texto pode soar óbvio para algumas pessoas, mas quem tem projetos pessoais, sempre procura uma brecha em sua rotina para trabalhar neles. E as férias são usadas como chance de ouro para isso.
+
+Todavia, é importante não deixarmos de lado o objetivo base de férias: O descanso.
+
+Qualquer pessoa precisa de tempo para sentar e fazer nada. Afinal, somos mais propícios a ter boas ideias nesses momentos.
+
+Eu dediquei grande parte desse recesso apenas para me distrair, e foi esclarecedor. Com a mente limpa, tive novas ideias e pude prestar mais atenção às coisas que estavam ao meu redor.
+
+> "Em uma época obcecada por velocidade, desacelerar requer treinamento especial" - Austin Kleon
+
+A vida segue um ritmo acelerado. Não devemos desperdiçar as oportunidades que temos para irmos um pouco mais devagar para nos agitarmos mais ainda.
+
+Com isso, não estamos sendo menos eficientes, pelo contrário, estamos cuidando do que é mais importante no fim das contas - nós mesmos.
+
+> "Um bom descanso é metade do trabalho" - Provérbio Iugoslavo
+
+---
+
+Espero que tenha curtido a leitura. Não deixe de compartilhar para alguém próximo que pode se beneficiar lendo isso.

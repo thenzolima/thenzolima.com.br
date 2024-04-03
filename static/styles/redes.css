@@ -1,0 +1,25 @@
+.redes{
+    display: flex;
+    gap: 8px;
+}
+.redes a{
+    background-color: var(--bgSoft);
+    padding: 6px 12px 6px 12px;
+    border: 1px solid var(--bgSoft2);
+    color: var(--text);
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: 0.3s;
+}
+
+.redes a:hover{
+    background-color:var(--bgSoft2);
+}
+
+.email{
+    position:absolute;
+    left:-9999px;
+}

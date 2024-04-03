@@ -1,0 +1,35 @@
+.main-list {
+    width: 100%;
+    margin: 5% auto;
+}
+
+h1{
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.list{
+    width: 100%;
+}
+
+.listItens{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid var(--bgSoft);
+}
+
+.title{
+    color: var(--white);
+}
+
+.date{
+    color: var(--text);
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px){
+    .listItens{
+        flex-direction: column;
+    }
+}

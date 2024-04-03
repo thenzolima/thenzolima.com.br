@@ -1,0 +1,51 @@
++++
+title= "Tenha um diário (sério)."
+date= 2023-06-24
+draft= false
+tags= ["Markdown","Escrita","Diário"]
+categories= ["Hábitos"]
+author= "Enzo Lima"
+description= "Gostando ou não de escrever, ter um diário é um dos melhores hábitos que alguém pode ter para a sua vida."
++++
+
+Gostando ou não de escrever, ter um diário é um dos melhores hábitos que alguém pode ter para a sua vida.
+
+Esses dias lembrei que em 2019, eu tinha uma página no Facebook que servia como um diário, lá eu escrevia como tinha sido o meu dia (grande parte das anotações era sobre o meu namoro da época).
+
+E eu adorava fazer isso! Mantive ele por alguns meses, o que gerou várias publicações, mas poucas visualizações (ainda bem). Não lembro ao certo o motivo de ter parado, creio que foi falta de tempo para fazer os posts.
+
+Durante a pandemia, essa vontade de documentar o que acontece na minha vida, seja coisas grandiosas ou mínimos detalhes que achei interessantes, voltou a minha cabeça.
+
+Então, comprei um caderno com folhas pontilhadas com esse intuito. A experiência foi interessante, só que em grande parte desconfortável.
+
+Por eu nunca ter escrito em um caderno do tipo, acabei não me adaptando. Esse investimento falho acabou me desmotivando do hábito.
+
+Um ano depois escrevi [meu primeiro artigo](https://medium.com/@thenzolima/minha-experi%C3%AAncia-com-linux-no-desktop-at%C3%A9-agora-f259a9bad235). Foi uma sensação tão gratificante vê-lo pronto e publicado. Então, percebi o quanto o hábito da escrita poderia mudar a minha vida **(spoiler: realmente mudou)**.
+
+Este ano coloquei como meta pessoal escrever pelo menos 12 artigos, para ficar a média de um artigo por mês (estou bem atrasado, mas até dezembro fecho as contas).
+
+Isso fez com que aquele velho desejo de registrar a minha vida voltasse. E desde do final de maio, tenho escrito sobre os dias pacatos, os divertidos e os tristes.
+
+Faço as anotações em markdown, pela praticidade e possibilidade de backup. Uso o [syncthing](https://syncthing.net/) para sincronizá-las entre o meu celular e notebook, fazendo com seja algo bastante flexível para mim.
+
+Eu poderia adotar o método físico, é bastante charmoso e funcional, no entanto, sinto que consigo me organizar melhor escrevendo digitalmente, principalmente por eu ser mais rápido desta maneira.
+
+Estou a quase um mês documentando o que acontece comigo, dia por dia. E desde então, escrevi mais de **35 mil caracteres**, e isso vem me ajudando de diversas maneiras.
+
+O hábito de escrever diariamente vem tornando a minha produção textual mais **criativa, prática e objetiva.** Gosto de escrever sobre qualquer coisa, e nem tudo vale a pena ser publicado, então ter um espaço privado onde eu possa me expressar livremente, me faz bem.
+
+Quando estou escrevendo, pode ser um artigo ou uma nota do meu diário, é como se os mínimos detalhes se tornassem mais nítidos. Como se minhas conversas com pessoas próximas fossem valiosas. É algo que ainda não sei explicar.
+
+**Além disso, este hobbie vem me trazendo novas ideias e metas.**
+
+Enfim, este diário é com certeza uma das coisas mais importantes que me aconteceu neste ano, algo tão simples e ao mesmo tempo tão simbólico.
+
+Recomendo esse hábito para qualquer um. Tire um tempo no final do seu dia, reflita sobre o que aconteceu e coloque tudo para fora, seja em um papel ou no seu bloco de notas. O que importa é fazer!
+
+> “Nunca viajo sem o meu diário. É preciso ter sempre algo extraordinário para ler no comboio.” — Oscar Wilde
+
+---
+
+Vou ficando por aqui, espero que tenha gostado do conteúdo.
+
+Espero que tenha curtido a leitura. Não deixe de compartilhar para alguém próximo que pode se beneficiar lendo isso.
