@@ -3,7 +3,7 @@
     <section class="main-list">
         <h1>Artigos </h1>
         <div class="list">
-            {{range .Paginator.Pages}}
+            {{ range .Pages }}
             <a href="{{.Permalink}}" class="listItens">
                 <p class="title">{{.Title}}</p>
                 <p class="date">{{ .Date.Format $format }}</p>

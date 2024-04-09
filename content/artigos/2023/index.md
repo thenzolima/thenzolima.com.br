@@ -36,6 +36,4 @@ Em outras palavras, foi um baita ano, e quero fazer com que os próximos também
 
 Espero que você tenha gostado do texto. Não deixe de comentar e compartilhar com outras pessoas que têm interesse neste assunto.
 
-
-
 Boas festas!!
