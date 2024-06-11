@@ -55,8 +55,4 @@ Essa página conta com uma lista de artigos, vídeos e repositórios que eu reco
 
 - [picocss/pico: Minimal CSS Framework for semantic HTML | GitHub](https://github.com/picocss/pico)
 
-- [Diolinux/PhotoGIMP: A Patch for GIMP 2.10+ for Photoshop Users | GitHub](https://github.com/Diolinux/PhotoGIMP)
-
 - [MaggieAppleton/digital-gardeners: Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs | Github](https://github.com/MaggieAppleton/digital-gardeners)
-
-- [marktext/marktext: 📝A simple and elegant markdown editor, available for Linux, macOS and Windows. | GitHub](https://github.com/marktext/marktext)

@@ -16,16 +16,13 @@
             {{ range .Site.Data.projects.data }}
             {{ partial "card" . }}
             {{ end }}
-            <a class="card next" href="">
-                <p>O próximo pode ser o seu!</p>
-            </a>
         </div>
     </section>
 
     <section class="posts">
         <div class="posts-title">
             <h2>Posts recentes</h2>
-            <a href="/artigos">Ver todos <ion-icon name="arrow-forward-outline"></ion-icon> </a>
+            <a href="/artigos">Ver todos</a>
         </div>
         {{range .Paginator.Pages | first 5}}
         <a href="{{.Permalink}}" class="listItens">
