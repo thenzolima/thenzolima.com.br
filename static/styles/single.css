@@ -1,56 +1,56 @@
-    .single{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin: 5% auto;
-    }
+.single {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 5% auto;
+}
 
-    .singleContent{
-        line-height: 1.6;
-    }
+.singleContent {
+  line-height: 1.6;
+}
 
-    .singleContent :is(h1,h2,h3,p){
-        margin: 20px 0;
-    }
+.singleContent :is(h1, h2, h3, p) {
+  margin: 20px 0;
+}
 
-    .singleContent img{
-        width: 100%;
-    }
+.singleContent img {
+  width: 100%;
+}
 
-    .singleContent ul{
-        padding-inline-start: 40px;
-    }
+.singleContent ul {
+  padding-inline-start: 40px;
+}
 
-    .singleContent p code{
-        background-color: var(--bgSoft);
-        display: inline;
-        width: max-content;
-        padding: 3px 5px 3px 5px;
-    }
+.singleContent p code {
+  background-color: var(--bgSoft);
+  display: inline;
+  width: max-content;
+  padding: 3px 5px 3px 5px;
+}
 
-    .codeblock code{
-        background-color: var(--bgSoft);
-        page-break-inside: avoid;
-        font-family: monospace;
-        font-size: 15px;
-        line-height: 1.6;
-        margin-bottom: 1.6em;
-        width: 100%;
-        overflow: auto;
-        padding: 1em 1.5em;
-        display: block;
-        word-wrap: break-word;
-    }
+.codeblock pre code {
+  background-color: var(--bgSoft);
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+}
 
-    .singleHeadTitle{
-        margin: 0;
-        font-weight: 500;
-    }
+.singleHeadTitle {
+  margin: 0;
+  font-weight: 500;
+}
 
-blockquote{
-    background-color: var(--bgSoft);
-    padding:10px 10px 10px 25px;
-    margin-bottom: 15px;
-    color: var(--white);
-    border-left:5px solid var(--white) ;
+blockquote {
+  background-color: var(--bgSoft);
+  padding: 10px 10px 10px 25px;
+  margin-bottom: 15px;
+  color: var(--white);
+  border-left: 5px solid var(--white);
 }
