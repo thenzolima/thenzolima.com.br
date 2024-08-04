@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=&#39;Em&#32;uma&#32;época&#32;obcecada&#32;por&#32;velocidade,&#32;desacelerar&#32;requer&#32;treinamento&#32;especial&#39;&#32;-&#32;Austin&#32;Kleon.>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>Use as férias para descansar.</title>
+    <link rel="stylesheet" href="/styles/style.css">
+<link rel="stylesheet" href="/styles/table.css">
+<link rel="stylesheet" href="/styles/redes.css">
+<link rel="stylesheet" href="/styles/index.css">
+<link rel="stylesheet" href="/styles/list.css">
+<link rel="stylesheet" href="/styles/navbar.css">
+<link rel="stylesheet" href="/styles/single.css">
+<link rel="stylesheet" href="/styles/library.css">
+</head>
+
+<body>
+    <section class="navbar">
+    <div class="nav-title">
+        <a href="/"><h1>THENZOLIMA</h1></a>
+        <ion-icon name="chevron-forward-circle-outline" class="nav-btn"></ion-icon>
+    </div>
+        <div class="nav-links">
+            <a href="/artigos">Artigos</a>
+            <a href="/links">Links</a>
+            <a href="https://tally.so/r/npKkLV" class="nav-contact-m" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
+            <a class="nav-contact" href="https://tally.so/r/npKkLV" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
+        </div>
+    </div>
+</section>
+    
+
+<div class="single">
+    <div class="singleHead">
+        <h1 class="singleHeadTitle">Use as férias para descansar.</h1>
+        
+            <p class="singleHeadDate">28-08-2023</p>
+        
+    </div>
+    <div class="singleContent">
+        <p>Agosto não é um mês muito comum de se tirar férias, mas tive duas semanas de recesso na minha vida estudantil. E acabei pensando em algo nesse período.</p>
+<p>O título desse texto pode soar óbvio para algumas pessoas, mas quem tem projetos pessoais, sempre procura uma brecha em sua rotina para trabalhar neles. E as férias são usadas como chance de ouro para isso.</p>
+<p>Todavia, é importante não deixarmos de lado o objetivo base de férias: O descanso.</p>
+<p>Qualquer pessoa precisa de tempo para sentar e fazer nada. Afinal, somos mais propícios a ter boas ideias nesses momentos.</p>
+<p>Eu dediquei grande parte desse recesso apenas para me distrair, e foi esclarecedor. Com a mente limpa, tive novas ideias e pude prestar mais atenção às coisas que estavam ao meu redor.</p>
+<blockquote>
+<p>&ldquo;Em uma época obcecada por velocidade, desacelerar requer treinamento especial&rdquo; - Austin Kleon</p>
+</blockquote>
+<p>A vida segue um ritmo acelerado. Não devemos desperdiçar as oportunidades que temos para irmos um pouco mais devagar para nos agitarmos mais ainda.</p>
+<p>Com isso, não estamos sendo menos eficientes, pelo contrário, estamos cuidando do que é mais importante no fim das contas - nós mesmos.</p>
+<blockquote>
+<p>&ldquo;Um bom descanso é metade do trabalho&rdquo; - Provérbio Iugoslavo</p>
+</blockquote>
+<hr>
+<p>Espero que tenha curtido a leitura. Não deixe de compartilhar para alguém próximo que pode se beneficiar lendo isso.</p>
+
+    </div>
+    <div class="redes">
+    <a href="https://github.com/thenzolima" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Github" class="btn-style"><ion-icon name="logo-github"></ion-icon></a>
+    <a href="https://www.instagram.com/thenzolima/" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Instagram" class="btn-style"><ion-icon name="logo-instagram"></ion-icon></a>
+    <button  id="copyEmail" class="btn-style btn" data-clipboard-text="contato@thenzolima.com.br"><ion-icon name="at"></ion-icon>Copiar Email</button>
+</div>
+</div>
+
+    <footer>
+    <p>2024 | Enzo Lima</p>
+    <p>Build with Hugo</p>
+</footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+<script>
+    const hamburger = document.querySelector('.nav-btn');
+
+    hamburger.onclick = function(){
+        const nav = document.querySelector('.navbar')
+        const navbar = document.querySelector('.nav-links');
+        const body = document.querySelector('body');
+
+        navbar.classList.toggle("active");
+        hamburger.classList.toggle("active");
+        body.classList.toggle("active");
+        nav.classList.toggle("active");
+    }
+
+    new ClipboardJS('.btn');
+    var copyEmail = document.querySelector('#copyEmail');
+    copyEmail.onclick = function() {
+        copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiado";
+        setTimeout(function() {
+                copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiar Email";
+            }, 800);
+    };
+
+</script>
+
+</body>
+
+</html>

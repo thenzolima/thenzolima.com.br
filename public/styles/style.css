@@ -1,0 +1,58 @@
+@import url(https://fonts.bunny.net/css?family=manrope:400,500,800);
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg: #0C0C0C;
+    --bgSoft: #131313;
+    --bgSoft2: #1f1f1f;
+    --text: #c2c2c2;
+    --white: #fff5ea;
+}
+
+body{
+    max-width: 700px;
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding:1.5rem;
+}
+
+a{
+    color: #0BABFB;
+    text-decoration: none;
+}
+
+h1, h2{
+  color: var(--white);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-track {
+    background: var(--bgSoft); 
+  }
+
+::-webkit-scrollbar-thumb {
+    background: var(--white); 
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text); 
+  }
+
+footer{
+  font-size: 14px;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}

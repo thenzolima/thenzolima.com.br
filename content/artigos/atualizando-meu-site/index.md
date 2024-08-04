@@ -43,7 +43,7 @@ Por exemplo, no início eu tinha feito a section dos projetos manualmente alí. 
 
 #### Section dinâmica (HTML e GO):
 
-```html {class="codeblock" lineNos=inline tabWidth=2}
+```html {id="codeblock" lineNos=inline tabWidth=2}
 <section class="projetos">
     <h2>Projetos</h2>
         <div class="card-grid">
@@ -59,7 +59,7 @@ Por exemplo, no início eu tinha feito a section dos projetos manualmente alí. 
 
 #### Database (YAML):
 
-```yaml {class="codeblock" lineNos=inline tabWidth=2}
+```yaml {id="codeblock" lineNos=inline tabWidth=2}
 data:
   - title: "Scot Scot"
     img: "/img/scotscot.png"

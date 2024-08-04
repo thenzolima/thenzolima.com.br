@@ -1,0 +1,124 @@
+.main-index{
+    display: flex;
+    margin: 5% auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.hero{
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+.hero h1{
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0;
+}
+
+h2{
+    font-weight: 500;
+}
+
+.avatar{
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid var(--bgSoft2);
+}
+
+.section-title{
+    margin-bottom: 0.4rem;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.card-grid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.card-text{
+    width: 100%;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.card-title{
+    color: var(--white);
+    font-weight: 500;
+}
+
+.card img{
+    width: 72px;
+    height: 72px;
+}
+
+.posts-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts-title a{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: var(--white);
+    font-size: 15px;
+}
+
+.contato{
+    background-color: var(--bgSoft);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.contato div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.contato div a{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    width: 100%;
+    background-color: var(--bgSoft2);
+    padding:10px;
+    border-radius: 5px;
+    align-items: center;
+    color: var(--white);
+    
+}
+
+@media screen and (max-width:576px){
+    .contato div{
+        flex-direction: column;
+    }
+}
