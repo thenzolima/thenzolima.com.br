@@ -59,7 +59,7 @@ Por exemplo, no início eu tinha feito a section dos projetos manualmente alí. 
 
 #### Database (YAML):
 
-```yaml {id="codeblock" lineNos=inline tabWidth=2}
+```yaml {lineNos=inline tabWidth=2}
 data:
   - title: "Scot Scot"
     img: "/img/scotscot.png"
