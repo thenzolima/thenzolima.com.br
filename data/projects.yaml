@@ -2,6 +2,8 @@ data:
   - title: "Scot Scot"
     img: "/img/scot.png"
     url: "https://thenzolima.github.io/scotscot/"
+    description: "Produtora independente de jogos educativos"
   - title: "Posterpack"
     img: "/img/poster.png"
     url: "https://thenzolima.github.io/posterpack/"
+    description: "Galeria parallax da cultura pop."

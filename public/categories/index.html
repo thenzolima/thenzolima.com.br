@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=Um&#32;Designer&#32;que&#32;gosta&#32;de&#32;bons&#32;filmes,&#32;música&#32;e&#32;Open&#32;Source.>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>Categories</title>
+    <link rel="stylesheet" href="/styles/style.css">
+<link rel="stylesheet" href="/styles/table.css">
+<link rel="stylesheet" href="/styles/redes.css">
+<link rel="stylesheet" href="/styles/index.css">
+<link rel="stylesheet" href="/styles/list.css">
+<link rel="stylesheet" href="/styles/navbar.css">
+<link rel="stylesheet" href="/styles/single.css">
+<link rel="stylesheet" href="/styles/library.css">
+</head>
+
+<body>
+    <section class="navbar">
+    <div class="nav-title">
+        <a href="/"><h1>THENZOLIMA</h1></a>
+        <ion-icon name="chevron-forward-circle-outline" class="nav-btn"></ion-icon>
+    </div>
+        <div class="nav-links">
+            <a href="/artigos">Artigos</a>
+            <a href="/links">Links</a>
+            <a href="https://tally.so/r/npKkLV" class="nav-contact-m" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
+            <a class="nav-contact" href="https://tally.so/r/npKkLV" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
+        </div>
+    </div>
+</section>
+    
+
+<section class="main-list">
+    <h1>Artigos </h1>
+    <div class="list">
+        
+        <a href="http://localhost:1313/categories/anuais/" class="listItens">
+            <p class="title">Anuais</p>
+            <p class="date">26-12-2023</p>
+        </a>
+        
+        <a href="http://localhost:1313/categories/relatos/" class="listItens">
+            <p class="title">Relatos</p>
+            <p class="date">26-12-2023</p>
+        </a>
+        
+        <a href="http://localhost:1313/categories/m%C3%BAsica/" class="listItens">
+            <p class="title">Música</p>
+            <p class="date">29-11-2023</p>
+        </a>
+        
+        <a href="http://localhost:1313/categories/h%C3%A1bitos/" class="listItens">
+            <p class="title">Hábitos</p>
+            <p class="date">16-07-2023</p>
+        </a>
+        
+        <a href="http://localhost:1313/categories/listas/" class="listItens">
+            <p class="title">Listas</p>
+            <p class="date">15-04-2023</p>
+        </a>
+        
+        <a href="http://localhost:1313/categories/sistemas/" class="listItens">
+            <p class="title">Sistemas</p>
+            <p class="date">12-02-2023</p>
+        </a>
+        
+    </div>
+</section>
+
+    <footer>
+    <p>2024 | Enzo Lima</p>
+    <p>Build with Hugo</p>
+</footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+<script>
+    const hamburger = document.querySelector('.nav-btn');
+
+    hamburger.onclick = function(){
+        const nav = document.querySelector('.navbar')
+        const navbar = document.querySelector('.nav-links');
+        const body = document.querySelector('body');
+
+        navbar.classList.toggle("active");
+        hamburger.classList.toggle("active");
+        body.classList.toggle("active");
+        nav.classList.toggle("active");
+    }
+
+    new ClipboardJS('.btn');
+    var copyEmail = document.querySelector('#copyEmail');
+    copyEmail.onclick = function() {
+        copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiado";
+        setTimeout(function() {
+                copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiar Email";
+            }, 800);
+    };
+
+</script>
+
+</body>
+
+</html>

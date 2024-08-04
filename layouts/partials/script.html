@@ -1,5 +1,6 @@
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
 <script>
     const hamburger = document.querySelector('.nav-btn');
 
@@ -14,30 +15,13 @@
         nav.classList.toggle("active");
     }
 
-    const btns = document.querySelectorAll('.btn');
-
-    btns.forEach(function(btn) {
-        btn.onclick = function copyEmail(event) {
-            event.preventDefault();
-            const copyText = document.querySelector('.email');
-          
-            copyText.select();
-            copyText.setSelectionRange(0, copyText.value.length);
-            document.execCommand("copy");
-            btn.innerHTML = "<ion-icon name='at'></ion-icon> Copiado!";
-          
-            setTimeout(function() {
-                btn.innerHTML = "<ion-icon name='at'></ion-icon> Copiar Email";
+    new ClipboardJS('.btn');
+    var copyEmail = document.querySelector('#copyEmail');
+    copyEmail.onclick = function() {
+        copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiado";
+        setTimeout(function() {
+                copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiar Email";
             }, 800);
-    
-            return false;
-        };
-    });
-
-    const card = document.querySelector('.card');
-    const modal = document.querySelector('dialog');
-
-    
-    
+    };
 
 </script>

@@ -11,7 +11,7 @@
     </section>
 
     <section class="projetos">
-        <h2>Projetos</h2>
+        <h2 class="section-title">Projetos</h2>
         <div class="card-grid">
             {{ range .Site.Data.projects.data }}
             {{ partial "card" . }}
@@ -21,7 +21,7 @@
 
     <section class="posts">
         <div class="posts-title">
-            <h2>Posts recentes</h2>
+            <h2 class="section-title">Posts recentes</h2>
             <a href="/artigos">Ver todos</a>
         </div>
         {{range .Paginator.Pages | first 5}}
