@@ -28,7 +28,7 @@
   padding: 3px 5px 3px 5px;
 }
 
-#codeblock pre code {
+pre code {
   background-color: var(--bgSoft);
   page-break-inside: avoid;
   font-family: monospace;
