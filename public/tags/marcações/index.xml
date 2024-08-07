@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marcações on thenzolima</title>
-    <link>http://localhost:1313/tags/marca%C3%A7%C3%B5es/</link>
+    <link>https://thenzolima.com.br/tags/marca%C3%A7%C3%B5es/</link>
     <description>Recent content in Marcações on thenzolima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Sun, 16 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/marca%C3%A7%C3%B5es/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thenzolima.com.br/tags/marca%C3%A7%C3%B5es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Destaque o necessário.</title>
-      <link>http://localhost:1313/artigos/destaque/</link>
+      <link>https://thenzolima.com.br/artigos/destaque/</link>
       <pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/artigos/destaque/</guid>
+      <guid>https://thenzolima.com.br/artigos/destaque/</guid>
       <description>Li bastante durante a pandemia, mas com a volta das minhas aulas presenciais, passei por uma ressaca literária. Felizmente, tenho colocado o hábito de ler de volta na minha vida.&#xA;Recentemente terminei a trilogia de livros sobre criatividade do Austin Kleon, é uma coleção cheia de dicas e insights. Qualquer pessoa deveria ler, sendo do “meio criativo” ou não. Afinal, somos todos criativos.&#xA;Junto com o hábito, comecei uma prática que me fez aproveitar mais a leitura, e achei que daria um artigo sobre — mesmo não sendo algo inovador ou revolucionário.</description>
     </item>
   </channel>

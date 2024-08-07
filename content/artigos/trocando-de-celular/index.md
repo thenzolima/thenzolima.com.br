@@ -76,7 +76,7 @@ Seu desempenho é bom tanto em uso casual quanto em tarefas mais pesadas. Tenho 
 
 A One UI traz uma ótima experiência com funções que acabam tornando-o um destaque em relação aos seus concorrentes. Entretanto, o sistema traz também um dos principais pontos negativos do celular.
 
-### Bateria
+**Bateria**
 
 A coreana deixou a desejar neste aspecto. A drenagem de bateria na primeira semana foi imensa, ao ponto do dispositivo consumir 8% de bateria da noite pro dia em stand by.
 
@@ -92,7 +92,7 @@ Felizmente, com o tempo a situação foi melhorando. Agora a bateria segura bem 
 
 ![a54-bateria](img/a54-bateria.png)
 
-### Câmeras
+**Câmeras**
 
 Voltando às coisas boas do aparelho, a câmera é ótima. Esse assunto sempre dividiu opiniões dos usuários em relação aos dispositivos da Samsung, mas é um fato que esse celular não deixa a desejar em suas fotos e gravações. Estarei devendo testes com ele aqui. Por isso, estarei indicando a análise do Gesiel Taveira do aparelho (pule para o momento 16:34):
 

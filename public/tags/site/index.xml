@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Site on thenzolima</title>
-    <link>http://localhost:1313/tags/site/</link>
+    <link>https://thenzolima.com.br/tags/site/</link>
     <description>Recent content in Site on thenzolima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/site/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thenzolima.com.br/tags/site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Atualizando meu site.</title>
-      <link>http://localhost:1313/artigos/atualizando-meu-site/</link>
+      <link>https://thenzolima.com.br/artigos/atualizando-meu-site/</link>
       <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/artigos/atualizando-meu-site/</guid>
+      <guid>https://thenzolima.com.br/artigos/atualizando-meu-site/</guid>
       <description>Comecei a desenvolver o meu site pessoal em maio do ano passado. Utilizei somente HTML e CSS para construí-lo e o Github Pages para fazer o deploy. Ele passou por diversas alterações com o passar do tempo, nelas fui reduzindo a quantidade de texto e imagens com o objetivo de ser algo minimalista.&#xA;Só que não durou muito e comecei a sentir que precisava de algo a mais. Nessa época eu já publicava alguns artigos no Medium, mas eu gostaria que eles fossem publicados em um espaço feito por mim.</description>
     </item>
   </channel>

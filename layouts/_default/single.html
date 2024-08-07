@@ -2,9 +2,9 @@
 {{ $format := "02-01-2006" }}
 <div class="single">
     <div class="singleHead">
-        <h1 class="singleHeadTitle">{{.Title}}</h1>
         {{ if not .Params.hideDate }}
-            <p class="singleHeadDate">{{.Date.Format $format}}</p>
+        <p class="singleHeadDate">{{ .Date | dateFormat "Jan 2, 2006" }}</p>
+        <h1 class="singleHeadTitle">{{.Title}}</h1>
         {{end}}
     </div>
     <div class="singleContent">

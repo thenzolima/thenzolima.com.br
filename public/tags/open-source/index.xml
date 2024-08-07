@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open-Source on thenzolima</title>
-    <link>http://localhost:1313/tags/open-source/</link>
+    <link>https://thenzolima.com.br/tags/open-source/</link>
     <description>Recent content in Open-Source on thenzolima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thenzolima.com.br/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aplicativos que uso para me organizar.</title>
-      <link>http://localhost:1313/artigos/apps-que-eu-uso/</link>
+      <link>https://thenzolima.com.br/artigos/apps-que-eu-uso/</link>
       <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/artigos/apps-que-eu-uso/</guid>
+      <guid>https://thenzolima.com.br/artigos/apps-que-eu-uso/</guid>
       <description>Faz um tempo que estou com a ideia de dedicar um texto para falar sobre os apps de organização que eu uso. Para mim, esse é um tópico bastante interessante e sempre acabo tocando no assunto enquanto faço os artigos, mas nunca me aprofundo para não fugir do tema principal.&#xA;Esse tipo de conteúdo é bastante presente nas redes sociais, e o Notion acaba sendo o destaque entre os criadores de conteúdo.</description>
     </item>
     <item>
       <title>Minha experiência com Linux no Desktop.</title>
-      <link>http://localhost:1313/artigos/minha-experiencia-linux/</link>
+      <link>https://thenzolima.com.br/artigos/minha-experiencia-linux/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/artigos/minha-experiencia-linux/</guid>
+      <guid>https://thenzolima.com.br/artigos/minha-experiencia-linux/</guid>
       <description>Texto editado em: 26/08/2023&#xA;O uso de linux na vida de alguém nos dias de hoje é inevitável. Por ser uma tecnologia flexível, podemos encontrá-la em diversos dispositivos e ambientes, como em computadores pessoais, setor onde sistemas baseados no pinguim tem ganhado cada vez mais destaque.&#xA;Mesmo que fatores como o fácil acesso a conteúdos introdutórios na internet e diversos computadores que possuem o pinguim como sistema nativo vem incentivando novos usuários a usarem e conhecerem mais sobre a tecnologia, ainda existe um preconceito por conta de seu passado.</description>
     </item>
   </channel>
