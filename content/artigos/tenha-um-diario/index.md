@@ -36,7 +36,7 @@ O hábito de escrever diariamente vem tornando a minha produção textual mais 
 
 Quando estou escrevendo, pode ser um artigo ou uma nota do meu diário, é como se os mínimos detalhes se tornassem mais nítidos. Como se minhas conversas com pessoas próximas fossem valiosas. É algo que ainda não sei explicar.
 
-**Além disso, este hobbie vem me trazendo novas ideias e metas.**
+## Além disso, este hobbie vem me trazendo novas ideias e metas.
 
 Enfim, este diário é com certeza uma das coisas mais importantes que me aconteceu neste ano, algo tão simples e ao mesmo tempo tão simbólico.
 

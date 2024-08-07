@@ -28,8 +28,6 @@ Um dos maiores exemplos disso é a música Virtual Insanity, do Jamiroquai.
 
 Devo ressaltar que, nem toda música que vira trend está relacionada a esse problema. Estou falando sobre as produções que tem como único objetivo bombar nessas mídias, que podem trazer uma repercussão maior, só que uma durabilidade baixa no mercado.
 
----
-
 ## A arte de fazer playlists
 
 Gosto muito de montar playlists, mas não as separando por artistas como antigamente. Logo quando adquiri o Spotify, criei duas playlists: #1 e #2. A primeira tinha um foco mais no rock e faixas intensas, enquanto a segunda era mais pro MPB e faixas suaves. Foram essas playlists que formaram a base do meu repertório musical.
@@ -42,8 +40,6 @@ Mesmo sendo um dump, a playlist foi se tornando harmônica. Geralmente eu não q
 
 Gosto da ideia de criar playlists de tópicos ou momentos específicos, mas nem sempre é bom pois pode gerar indecisão na hora da escolha. Então a main dump é como se fosse minha carta coringa.
 
----
-
 ## O que eu tenho ouvido
 
 Beatles sempre esteve no meu top 5 do Spotify Wrapped, e não é atoa. Mesmo que meu gosto tenha mudado bastante com o passar do tempo, a banda continua sendo atemporal na minha vida.
@@ -53,8 +49,6 @@ Quando eu era mais novo, gostava mais das faixas iê-iê-iê dos besouros. Mas c
 Hoje em dia tenho explorado bastante o RAP - tanto gringo quanto nacional. Pesquisar referências do gênero e os samples das músicas que eu curto, sempre me dá gatilhos para produzir algo.
 
 Minhas raízes do eu mais jovem ainda continuam presentes. Só que hoje estou mais aberto a conhecer o que antes tinha certo receio. Isso é normal, e caso você, leitor, esteja passando por algo parecido, saiba que você tem mais a ganhar do que perder consumindo gêneros diferentes.
-
----
 
 ## Complementos
 

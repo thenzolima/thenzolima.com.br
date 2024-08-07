@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dicas on thenzolima</title>
-    <link>https://thenzolima.com.br/tags/dicas/</link>
+    <link>http://localhost:1313/tags/dicas/</link>
     <description>Recent content in Dicas on thenzolima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Mon, 28 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://thenzolima.com.br/tags/dicas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/dicas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use as férias para descansar.</title>
-      <link>https://thenzolima.com.br/artigos/use-as-ferias/</link>
+      <link>http://localhost:1313/artigos/use-as-ferias/</link>
       <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://thenzolima.com.br/artigos/use-as-ferias/</guid>
+      <guid>http://localhost:1313/artigos/use-as-ferias/</guid>
       <description>Agosto não é um mês muito comum de se tirar férias, mas tive duas semanas de recesso na minha vida estudantil. E acabei pensando em algo nesse período.&#xA;O título desse texto pode soar óbvio para algumas pessoas, mas quem tem projetos pessoais, sempre procura uma brecha em sua rotina para trabalhar neles. E as férias são usadas como chance de ouro para isso.&#xA;Todavia, é importante não deixarmos de lado o objetivo base de férias: O descanso.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on thenzolima</title>
-    <link>https://thenzolima.com.br/tags/linux/</link>
+    <link>http://localhost:1313/tags/linux/</link>
     <description>Recent content in Linux on thenzolima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Sun, 03 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://thenzolima.com.br/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Minha experiência com Linux no Desktop.</title>
-      <link>https://thenzolima.com.br/artigos/minha-experiencia-linux/</link>
+      <link>http://localhost:1313/artigos/minha-experiencia-linux/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://thenzolima.com.br/artigos/minha-experiencia-linux/</guid>
+      <guid>http://localhost:1313/artigos/minha-experiencia-linux/</guid>
       <description>Texto editado em: 26/08/2023&#xA;O uso de linux na vida de alguém nos dias de hoje é inevitável. Por ser uma tecnologia flexível, podemos encontrá-la em diversos dispositivos e ambientes, como em computadores pessoais, setor onde sistemas baseados no pinguim tem ganhado cada vez mais destaque.&#xA;Mesmo que fatores como o fácil acesso a conteúdos introdutórios na internet e diversos computadores que possuem o pinguim como sistema nativo vem incentivando novos usuários a usarem e conhecerem mais sobre a tecnologia, ainda existe um preconceito por conta de seu passado.</description>
     </item>
   </channel>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Relatos on thenzolima</title>
-    <link>https://thenzolima.com.br/categories/relatos/</link>
+    <link>http://localhost:1313/categories/relatos/</link>
     <description>Recent content in Relatos on thenzolima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://thenzolima.com.br/categories/relatos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/relatos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>&#34;2023&#34;.</title>
-      <link>https://thenzolima.com.br/artigos/2023/</link>
+      <link>http://localhost:1313/artigos/2023/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://thenzolima.com.br/artigos/2023/</guid>
+      <guid>http://localhost:1313/artigos/2023/</guid>
       <description>2023 foi e teve que ser um ano importante na minha vida. Fazer o que não pude durante a pandemia e começar a descobrir qual rumo quero para ela eram os meus objetivos.&#xA;Até o ano passado, estava crente que eu ia ser um designer gráfico. Não que hoje em dia isso esteja totalmente errado, só que agora eu quero um pouco mais.&#xA;A ideia de criar coisas sempre me cativou, e esse ano me mostrou isso.</description>
     </item>
     <item>
       <title>Trocando de celular.</title>
-      <link>https://thenzolima.com.br/artigos/trocando-de-celular/</link>
+      <link>http://localhost:1313/artigos/trocando-de-celular/</link>
       <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://thenzolima.com.br/artigos/trocando-de-celular/</guid>
+      <guid>http://localhost:1313/artigos/trocando-de-celular/</guid>
       <description>Sempre estamos cercados por lançamento de smartphones, o que acaba sendo bastante atrativo, mesmo quando seu celular atual possua grande parte das funções do dispositivo que você vê nos anúncios.&#xA;Muitos diriam que esse sentimento acontece principalmente nas pessoas que são entusiastas na área, só que eu discordo. O fator conhecimento não é o principal motivo que causa o interesse, e sim o quesito novidade.&#xA;Um leigo e um conhecedor de carros podem olhar para um anúncio de um novo modelo automotivo da mesma maneira, mesmo que não seja por motivos iguais.</description>
     </item>
     <item>
       <title>Transformei meu celular em um “Dump Phone”.</title>
-      <link>https://thenzolima.com.br/artigos/dumpphone/</link>
+      <link>http://localhost:1313/artigos/dumpphone/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://thenzolima.com.br/artigos/dumpphone/</guid>
+      <guid>http://localhost:1313/artigos/dumpphone/</guid>
       <description>Todos usam celular, mas nos dias de hoje é comum acontecer o contrário, o celular usar você, com feeds que se adaptam ao seu gosto para nos prender nas redes sociais, fazendo com que seja consumido mais conteúdos fúteis (em grande parte) que serão esquecidos logo em seguida, quando outra publicação é mostrada.&#xA;Sei que esse tema é bastante debatido e grande parte das pessoas têm consciência disso, apesar de não conseguirem “se livrar” da ação involuntária de abrir o Instagram, por exemplo, e usar até se perguntar do porquê de estar fazendo isso.</description>
     </item>
   </channel>

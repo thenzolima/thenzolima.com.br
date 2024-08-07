@@ -12,7 +12,7 @@ Todos usam celular, mas nos dias de hoje é comum acontecer o contrário, **o c
 
 Sei que esse tema é bastante debatido e grande parte das pessoas têm consciência disso, apesar de não conseguirem “se livrar” da ação involuntária de abrir o *Instagram*, por exemplo, e usar até se perguntar do porquê de estar fazendo isso.
 
-**E eu era exatamente assim até encontrar uma solução que muitos podem considerar extrema.**
+## E eu era exatamente assim até encontrar uma solução que muitos podem considerar extrema.
 
 As cores em uma tela, dando destaque aos dispositivos móveis, estimulam nossos instintos e emoções de diversas maneiras. Agora, **imagina se o celular não tiver cor?**
 

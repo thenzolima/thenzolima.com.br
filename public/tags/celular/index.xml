@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Celular on thenzolima</title>
-    <link>https://thenzolima.com.br/tags/celular/</link>
+    <link>http://localhost:1313/tags/celular/</link>
     <description>Recent content in Celular on thenzolima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Wed, 11 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://thenzolima.com.br/tags/celular/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/celular/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trocando de celular.</title>
-      <link>https://thenzolima.com.br/artigos/trocando-de-celular/</link>
+      <link>http://localhost:1313/artigos/trocando-de-celular/</link>
       <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://thenzolima.com.br/artigos/trocando-de-celular/</guid>
+      <guid>http://localhost:1313/artigos/trocando-de-celular/</guid>
       <description>Sempre estamos cercados por lançamento de smartphones, o que acaba sendo bastante atrativo, mesmo quando seu celular atual possua grande parte das funções do dispositivo que você vê nos anúncios.&#xA;Muitos diriam que esse sentimento acontece principalmente nas pessoas que são entusiastas na área, só que eu discordo. O fator conhecimento não é o principal motivo que causa o interesse, e sim o quesito novidade.&#xA;Um leigo e um conhecedor de carros podem olhar para um anúncio de um novo modelo automotivo da mesma maneira, mesmo que não seja por motivos iguais.</description>
     </item>
   </channel>

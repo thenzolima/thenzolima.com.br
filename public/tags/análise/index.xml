@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Análise on thenzolima</title>
-    <link>https://thenzolima.com.br/tags/an%C3%A1lise/</link>
+    <link>http://localhost:1313/tags/an%C3%A1lise/</link>
     <description>Recent content in Análise on thenzolima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Wed, 11 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://thenzolima.com.br/tags/an%C3%A1lise/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/an%C3%A1lise/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trocando de celular.</title>
-      <link>https://thenzolima.com.br/artigos/trocando-de-celular/</link>
+      <link>http://localhost:1313/artigos/trocando-de-celular/</link>
       <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://thenzolima.com.br/artigos/trocando-de-celular/</guid>
+      <guid>http://localhost:1313/artigos/trocando-de-celular/</guid>
       <description>Sempre estamos cercados por lançamento de smartphones, o que acaba sendo bastante atrativo, mesmo quando seu celular atual possua grande parte das funções do dispositivo que você vê nos anúncios.&#xA;Muitos diriam que esse sentimento acontece principalmente nas pessoas que são entusiastas na área, só que eu discordo. O fator conhecimento não é o principal motivo que causa o interesse, e sim o quesito novidade.&#xA;Um leigo e um conhecedor de carros podem olhar para um anúncio de um novo modelo automotivo da mesma maneira, mesmo que não seja por motivos iguais.</description>
     </item>
     <item>
       <title>Atualmente, o Windows é um bom sistema?</title>
-      <link>https://thenzolima.com.br/artigos/an%C3%A1lise-windows/</link>
+      <link>http://localhost:1313/artigos/an%C3%A1lise-windows/</link>
       <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://thenzolima.com.br/artigos/an%C3%A1lise-windows/</guid>
+      <guid>http://localhost:1313/artigos/an%C3%A1lise-windows/</guid>
       <description>Texto editado em: 26/08/2023&#xA;Uma amiga que usa Ubuntu já comentou que às vezes tem gatilhos de migrar para o Windows, mas não soube explicar o motivo. E eu já tive esse mesmo sentimento.&#xA;No ano passado, fui para o sistema da Microsoft pelo menos umas três vezes. Apesar do sentimento de nostalgia, sempre acontecia o mesmo: Eu acabava voltando para alguma distro em menos de uma semana ou até no mesmo dia.</description>
     </item>
     <item>
       <title>Minha experiência com Linux no Desktop.</title>
-      <link>https://thenzolima.com.br/artigos/minha-experiencia-linux/</link>
+      <link>http://localhost:1313/artigos/minha-experiencia-linux/</link>
       <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://thenzolima.com.br/artigos/minha-experiencia-linux/</guid>
+      <guid>http://localhost:1313/artigos/minha-experiencia-linux/</guid>
       <description>Texto editado em: 26/08/2023&#xA;O uso de linux na vida de alguém nos dias de hoje é inevitável. Por ser uma tecnologia flexível, podemos encontrá-la em diversos dispositivos e ambientes, como em computadores pessoais, setor onde sistemas baseados no pinguim tem ganhado cada vez mais destaque.&#xA;Mesmo que fatores como o fácil acesso a conteúdos introdutórios na internet e diversos computadores que possuem o pinguim como sistema nativo vem incentivando novos usuários a usarem e conhecerem mais sobre a tecnologia, ainda existe um preconceito por conta de seu passado.</description>
     </item>
   </channel>
