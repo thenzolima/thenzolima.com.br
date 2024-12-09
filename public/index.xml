@@ -85,12 +85,5 @@
       <guid>http://localhost:1313/artigos/minha-experiencia-linux/</guid>
       <description>Texto editado em: 26/08/2023&#xA;O uso de linux na vida de alguém nos dias de hoje é inevitável. Por ser uma tecnologia flexível, podemos encontrá-la em diversos dispositivos e ambientes, como em computadores pessoais, setor onde sistemas baseados no pinguim tem ganhado cada vez mais destaque.&#xA;Mesmo que fatores como o fácil acesso a conteúdos introdutórios na internet e diversos computadores que possuem o pinguim como sistema nativo vem incentivando novos usuários a usarem e conhecerem mais sobre a tecnologia, ainda existe um preconceito por conta de seu passado.</description>
     </item>
-    <item>
-      <title>Um acervo de bons conteúdos.</title>
-      <link>http://localhost:1313/links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/links/</guid>
-      <description>Essa página conta com uma lista de artigos, vídeos e repositórios que eu recomendo. Irei alimentando esse ambiente ao longo do tempo.&#xA;Textos Adeus ao blog. Viva o jardim digital. | Valter Nascimento&#xA;How and Why I Stopped Buying New Laptops | LOW←TECH MAGAZINE&#xA;A Slow Web | Jack Cheng (versão traduzida pelo Manual do Usuário)&#xA;Existe amizade entre homem e mulher? | Bia&#xA;Por que podcasts brasileiros são piores que os americanos?</description>
-    </item>
   </channel>
 </rss>

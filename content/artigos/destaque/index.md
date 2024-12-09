@@ -2,9 +2,6 @@
 title= "Destaque o necessário."
 date= 2023-07-16
 draft= false
-tags= ["Marcações","Leitura"]
-categories= ["Hábitos"]
-author= "Enzo Lima"
 description= 'Boas práticas durante uma leitura.'
 +++
 

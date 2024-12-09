@@ -2,9 +2,6 @@
 title= "Trocando de celular."
 date= 2023-10-11
 draft= false
-tags= ["Celular","Análise"]
-categories= ["Relatos"]
-author= "Enzo Lima"
 description= "Minha experiência trocando de smartphone." 
 +++
 

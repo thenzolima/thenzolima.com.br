@@ -2,9 +2,6 @@
 title= "Tenha um diário (sério)."
 date= 2023-06-24
 draft= false
-tags= ["Markdown","Escrita","Diário"]
-categories= ["Hábitos"]
-author= "Enzo Lima"
 description= "Gostando ou não de escrever, ter um diário é um dos melhores hábitos que alguém pode ter para a sua vida."
 +++
 

@@ -2,9 +2,6 @@
 title= "Transformei meu celular em um “Dump Phone”."
 date= 2023-06-05
 draft= false
-tags= ["Dumpphone","Minimalismo","Android"]
-categories= ["Relatos"]
-author= "Enzo Lima"
 description= 'Todos usam celular, mas nos dias de hoje é comum acontecer o contrário.'
 +++
 

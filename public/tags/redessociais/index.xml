@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RedesSociais on thenzolima</title>
+    <link>http://localhost:1313/tags/redessociais/</link>
+    <description>Recent content in RedesSociais on thenzolima</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/redessociais/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sobre as Redes Sociais Atualmente</title>
+      <link>http://localhost:1313/artigos/sobre-as-redes-sociais-atualmente/</link>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/artigos/sobre-as-redes-sociais-atualmente/</guid>
+      <description>Minha primeira rede social foi o Facebook, minha mãe fez uma conta para mim como presente de aniversário de 6 anos. Pode parecer estranho, mas foi por uma boa causa, a gente tinha acabado de mudar de cidade, então foi uma maneira de eu manter contato com meus amigos, apesar de longe.&#xA;Mesmo bastante novo, acabei não viciando na plataforma, eu usava somente para fins comunicativos. Acredito que há dois pontos que podem explicar isso: as redes sociais tinham menos estímulos tanto visuais quanto relacionados ao algoritmo, e eu ainda não entendia o conceito de &amp;ldquo;web-pages&amp;rdquo;, por exemplo.</description>
+    </item>
+  </channel>
+</rss>

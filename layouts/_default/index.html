@@ -5,19 +5,22 @@
         <img class="avatar"
             src="https://avatars.githubusercontent.com/u/129903213?s=400&u=dc48975f381c5dacee55de5a9ee71576d5101a03&v=4"
             alt="">
-        <h1>Um Designer que gosta de bons filmes, música e Open Source.</h1>
+        <div class="hero-title">
+            <span>Olá! sou Enzo Lima,</span>
+            <h1>Designer de produto focado em Branding e Softwares.</h1>
+        </div>
         {{.Content}}
         {{ partial "redes" . }}
     </section>
 
-    <section class="projetos">
+    <!-- <section class="projetos">
         <h2 class="section-title">Projetos</h2>
         <div class="card-grid">
             {{ range .Site.Data.projects.data }}
             {{ partial "card" . }}
             {{ end }}
         </div>
-    </section>
+    </section> -->
 
     <section class="posts">
         <div class="posts-title">

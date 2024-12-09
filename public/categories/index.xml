@@ -23,27 +23,6 @@
       <description></description>
     </item>
     <item>
-      <title>Música</title>
-      <link>http://localhost:1313/categories/m%C3%BAsica/</link>
-      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/m%C3%BAsica/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hábitos</title>
-      <link>http://localhost:1313/categories/h%C3%A1bitos/</link>
-      <pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/h%C3%A1bitos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Listas</title>
-      <link>http://localhost:1313/categories/listas/</link>
-      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/listas/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Sistemas</title>
       <link>http://localhost:1313/categories/sistemas/</link>
       <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>

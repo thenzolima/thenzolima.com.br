@@ -2,9 +2,6 @@
 title= "Minha experiência com Linux no Desktop."
 date= 2022-07-03
 draft= false
-tags= ["Open-Source","Linux","Análise"]
-categories= ["Sistemas"]
-author= "Enzo Lima"
 description= 'O uso de linux na vida de alguém nos dias de hoje é inevitável.'
 +++
 

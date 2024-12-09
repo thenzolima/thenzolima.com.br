@@ -2,8 +2,6 @@
 title= "Use as férias para descansar."
 date= 2023-08-28
 draft= false
-tags= ["Férias","Dicas"]
-author= "Enzo Lima"
 description= "'Em uma época obcecada por velocidade, desacelerar requer treinamento especial' - Austin Kleon."
 +++
 

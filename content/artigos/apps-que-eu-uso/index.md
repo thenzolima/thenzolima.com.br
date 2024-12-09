@@ -2,9 +2,6 @@
 title= "Aplicativos que uso para me organizar."
 date= 2023-04-15
 draft= false
-tags= ["Open-Source","Organização","Markdown"]
-categories= ["Listas"]
-author= "Enzo Lima"
 description= 'Indicações de bons aplicativos.'
 +++
 

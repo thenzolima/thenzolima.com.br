@@ -20,6 +20,11 @@
   margin: 0;
 }
 
+.hero span{
+  font-size: 20px;
+  color:var(--white);
+}
+
 h2 {
   font-weight: 500;
 }

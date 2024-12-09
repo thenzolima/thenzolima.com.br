@@ -2,8 +2,6 @@
 title= 'Atualizando meu site.'
 date= 2024-04-08
 draft= false
-tags= ["Site"]
-author= "Enzo Lima"
 description= "Transformando meu site em algo dinâmico" 
 +++
 

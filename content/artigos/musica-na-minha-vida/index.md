@@ -2,9 +2,6 @@
 title = 'A música na minha vida.'
 date = 2023-11-29
 draft = false
-tags= ["Música","Experiências"]
-categories= ["Música"]
-author = "Enzo Lima"
 description = "música <3"
 +++
 
