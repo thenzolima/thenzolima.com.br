@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on thenzolima</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://thenzolima.com.br/categories/</link>
     <description>Recent content in Categories on thenzolima</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thenzolima.com.br/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anuais</title>
-      <link>http://localhost:1313/categories/anuais/</link>
+      <link>https://thenzolima.com.br/categories/anuais/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/anuais/</guid>
+      <guid>https://thenzolima.com.br/categories/anuais/</guid>
       <description></description>
     </item>
     <item>
       <title>Relatos</title>
-      <link>http://localhost:1313/categories/relatos/</link>
+      <link>https://thenzolima.com.br/categories/relatos/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/relatos/</guid>
+      <guid>https://thenzolima.com.br/categories/relatos/</guid>
       <description></description>
     </item>
     <item>
       <title>Sistemas</title>
-      <link>http://localhost:1313/categories/sistemas/</link>
+      <link>https://thenzolima.com.br/categories/sistemas/</link>
       <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/sistemas/</guid>
+      <guid>https://thenzolima.com.br/categories/sistemas/</guid>
       <description></description>
     </item>
   </channel>

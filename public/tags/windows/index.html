@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content=Um&#32;Designer&#32;que&#32;gosta&#32;de&#32;bons&#32;filmes,&#32;música&#32;e&#32;Open&#32;Source.>
@@ -15,28 +15,33 @@
 <link rel="stylesheet" href="/styles/navbar.css">
 <link rel="stylesheet" href="/styles/single.css">
 <link rel="stylesheet" href="/styles/library.css">
+<link rel="stylesheet" href="/styles/produtos.css">
 </head>
 
 <body>
     <section class="navbar">
     <div class="nav-title">
-        <a href="/"><h1 class="thenzolima">THENZOLIMA</h1></a>
+        <a href="/">
+            <h1 class="thenzolima">THENZOLIMA</h1>
+        </a>
         <ion-icon name="chevron-forward-circle-outline" class="nav-btn"></ion-icon>
     </div>
-        <div class="nav-links">
-            <a href="/artigos">Artigos</a>
-            <a href="https://tally.so/r/npKkLV" class="nav-contact-m" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
-            <a class="nav-contact" href="https://tally.so/r/npKkLV" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
-        </div>
+    <div class="nav-links">
+        <a href="/artigos">Artigos</a>
+        <a href="https://thenzolima.substack.com" class="nav-contact-m" target="_blank" rel="noopener noreferrer">Minha
+            Newsletter</a>
+        <a class="nav-contact" href="https://thenzolima.substack.com" target="_blank" rel="noopener noreferrer">Minha
+            Newsletter</a>
+    </div>
     </div>
 </section>
     
 
 <section class="main-list">
-    <h1>Artigos </h1>
+    <h1>Windows</h1>
     <div class="list">
         
-        <a href="http://localhost:1313/artigos/an%C3%A1lise-windows/" class="listItens">
+        <a href="https://thenzolima.com.br/artigos/an%C3%A1lise-windows/" class="listItens">
             <p class="title">Atualmente, o Windows é um bom sistema?</p>
             <p class="date">12-02-2023</p>
         </a>
@@ -45,7 +50,7 @@
 </section>
 
     <footer>
-    <p>2024 | Enzo Lima</p>
+    <p id="ano"></p>
     <p>Build with Hugo</p>
 </footer>
 
@@ -55,7 +60,7 @@
 <script>
     const hamburger = document.querySelector('.nav-btn');
 
-    hamburger.onclick = function(){
+    hamburger.onclick = function () {
         const nav = document.querySelector('.navbar')
         const navbar = document.querySelector('.nav-links');
         const body = document.querySelector('body');
@@ -67,13 +72,17 @@
     }
 
     new ClipboardJS('.btn');
-    var copyEmail = document.querySelector('#copyEmail');
-    copyEmail.onclick = function() {
-        copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiado";
-        setTimeout(function() {
-                copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiar Email";
-            }, 800);
+    var copyEmail = document.querySelector('#copyEmail p');
+    copyEmail.onclick = function () {
+        copyEmail.innerHTML = "Copiado";
+        setTimeout(function () {
+            copyEmail.innerHTML = "Copiar Email";
+        }, 1600);
     };
+
+    let footerAno = document.querySelector("#ano")
+    let ano = new Date().getFullYear()
+    footerAno.innerHTML = `${ano} | Enzo Lima`
 
 </script>
 

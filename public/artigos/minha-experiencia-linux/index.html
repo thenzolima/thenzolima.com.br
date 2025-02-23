@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content=O&#32;uso&#32;de&#32;linux&#32;na&#32;vida&#32;de&#32;alguém&#32;nos&#32;dias&#32;de&#32;hoje&#32;é&#32;inevitável.>
@@ -15,19 +15,24 @@
 <link rel="stylesheet" href="/styles/navbar.css">
 <link rel="stylesheet" href="/styles/single.css">
 <link rel="stylesheet" href="/styles/library.css">
+<link rel="stylesheet" href="/styles/produtos.css">
 </head>
 
 <body>
     <section class="navbar">
     <div class="nav-title">
-        <a href="/"><h1 class="thenzolima">THENZOLIMA</h1></a>
+        <a href="/">
+            <h1 class="thenzolima">THENZOLIMA</h1>
+        </a>
         <ion-icon name="chevron-forward-circle-outline" class="nav-btn"></ion-icon>
     </div>
-        <div class="nav-links">
-            <a href="/artigos">Artigos</a>
-            <a href="https://tally.so/r/npKkLV" class="nav-contact-m" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
-            <a class="nav-contact" href="https://tally.so/r/npKkLV" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
-        </div>
+    <div class="nav-links">
+        <a href="/artigos">Artigos</a>
+        <a href="https://thenzolima.substack.com" class="nav-contact-m" target="_blank" rel="noopener noreferrer">Minha
+            Newsletter</a>
+        <a class="nav-contact" href="https://thenzolima.substack.com" target="_blank" rel="noopener noreferrer">Minha
+            Newsletter</a>
+    </div>
     </div>
 </section>
     
@@ -60,18 +65,16 @@
 Um dos únicos pontos que me incomodou no Zorin é o fato de que edições atuais do próprio usa uma versão antiga do gnome, fazendo com que o sistema continue com alguns bugs da época, como leaks de ram.</p>
 <p>Atualmente, estou alternando entre o <a href="https://www.debian.org/index.pt.html">Debian</a> e o <a href="https://linuxmint.com/">Mint</a>. Ambos são práticos de usar e possuem versões atualizadas de drivers e interfaces gráficas.</p>
 <h2 id="indicação-de-vídeo">Indicação de vídeo</h2>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/-kCBGsqvfr0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/-kCBGsqvfr0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 <h2 id="e-os-jogos">E os jogos?</h2>
 <p>Com o aumento do suporte a jogos para Linux — sendo o <a href="https://store.steampowered.com/steamdeck/">Steam Deck</a> um dos principais motivos disso acontecer — vem sendo cada vez mais prático jogar alguma coisa não nativa para o ambiente.</p>
 <p>Isso se dá graças ao Proton, uma camada de compatibilidade que a Valve desenvolveu para jogos de Windows rodarem no Linux. Como é de código aberto, possui versões alternativas com implementos e correções de bugs para jogos específicos.</p>
 <p>O <a href="https://www.protondb.com/">ProtonDB</a> é um site onde você consegue ver e fornecer relatórios sobre o desempenho dos jogos com o Proton. Segundo o site:</p>
 <blockquote>
-<p>O objetivo do ProtonDB é coletar relatórios de outros jogadores enquanto eles testam jogos com o Proton no Linux e fornecer pontuações agregadas sobre o desempenho dos jogos. Um crescente conjunto de sugestões fornece ajustes que você pode tentar fazer os jogos funcionarem enquanto o Proton continua o desenvolvimento.</p>
-</blockquote>
+<p>O objetivo do ProtonDB é coletar relatórios de outros jogadores enquanto eles testam jogos com o Proton no Linux e fornecer pontuações agregadas sobre o desempenho dos jogos. Um crescente conjunto de sugestões fornece ajustes que você pode tentar fazer os jogos funcionarem enquanto o Proton continua o desenvolvimento.</p></blockquote>
 <p>Como a Epic Game Store não tem versão nativa para Linux, a comunidade desenvolveu o <a href="https://heroicgameslauncher.com/">Heroic Games</a>, um launcher onde trás a sua biblioteca da Epic para o Linux, com compatibilidade a versões do Proton, e suporte a outras lojas como a do GOG.</p>
 <h2 id="prós-de-usar-linux">Prós de usar Linux</h2>
 <h3 id="liberdade">Liberdade</h3>
@@ -106,14 +109,19 @@ Um dos únicos pontos que me incomodou no Zorin é o fato de que edições atuai
 
     </div>
     <div class="redes">
-    <a href="https://github.com/thenzolima" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Github" class="btn-style"><ion-icon name="logo-github"></ion-icon></a>
-    <a href="https://www.instagram.com/thenzolima/" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Instagram" class="btn-style"><ion-icon name="logo-instagram"></ion-icon></a>
-    <button  id="copyEmail" class="btn-style btn" data-clipboard-text="contato@thenzolima.com.br"><ion-icon name="at"></ion-icon>Copiar Email</button>
+    <a href="https://github.com/thenzolima" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Github"
+        class="btn-style"><ion-icon name="logo-github"></ion-icon></a>
+    <a href="https://www.instagram.com/thenzolima/" target="_blank" rel="noopener noreferrer"
+        aria-label="Link do meu Instagram" class="btn-style"><ion-icon name="logo-instagram"></ion-icon></a>
+        <button id="copyEmail" class="btn-style btn" data-clipboard-text="contato@thenzolima.com.br">
+            <ion-icon name="at"></ion-icon> <p class="btn-text">Copiar Email</p>
+        </button>        
+    <button class="btn-style"><ion-icon name="thumbs-up"></ion-icon> 0</button>
 </div>
 </div>
 
     <footer>
-    <p>2024 | Enzo Lima</p>
+    <p id="ano"></p>
     <p>Build with Hugo</p>
 </footer>
 
@@ -123,7 +131,7 @@ Um dos únicos pontos que me incomodou no Zorin é o fato de que edições atuai
 <script>
     const hamburger = document.querySelector('.nav-btn');
 
-    hamburger.onclick = function(){
+    hamburger.onclick = function () {
         const nav = document.querySelector('.navbar')
         const navbar = document.querySelector('.nav-links');
         const body = document.querySelector('body');
@@ -135,13 +143,17 @@ Um dos únicos pontos que me incomodou no Zorin é o fato de que edições atuai
     }
 
     new ClipboardJS('.btn');
-    var copyEmail = document.querySelector('#copyEmail');
-    copyEmail.onclick = function() {
-        copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiado";
-        setTimeout(function() {
-                copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiar Email";
-            }, 800);
+    var copyEmail = document.querySelector('#copyEmail p');
+    copyEmail.onclick = function () {
+        copyEmail.innerHTML = "Copiado";
+        setTimeout(function () {
+            copyEmail.innerHTML = "Copiar Email";
+        }, 1600);
     };
+
+    let footerAno = document.querySelector("#ano")
+    let ano = new Date().getFullYear()
+    footerAno.innerHTML = `${ano} | Enzo Lima`
 
 </script>
 

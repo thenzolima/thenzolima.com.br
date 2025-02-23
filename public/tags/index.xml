@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on thenzolima</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://thenzolima.com.br/tags/</link>
     <description>Recent content in Tags on thenzolima</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thenzolima.com.br/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ano</title>
-      <link>http://localhost:1313/tags/ano/</link>
+      <link>https://thenzolima.com.br/tags/ano/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ano/</guid>
+      <guid>https://thenzolima.com.br/tags/ano/</guid>
       <description></description>
     </item>
     <item>
       <title>Análise</title>
-      <link>http://localhost:1313/tags/an%C3%A1lise/</link>
+      <link>https://thenzolima.com.br/tags/an%C3%A1lise/</link>
       <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/an%C3%A1lise/</guid>
+      <guid>https://thenzolima.com.br/tags/an%C3%A1lise/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>http://localhost:1313/tags/windows/</link>
+      <link>https://thenzolima.com.br/tags/windows/</link>
       <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/windows/</guid>
+      <guid>https://thenzolima.com.br/tags/windows/</guid>
       <description></description>
     </item>
   </channel>

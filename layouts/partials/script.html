@@ -4,7 +4,7 @@
 <script>
     const hamburger = document.querySelector('.nav-btn');
 
-    hamburger.onclick = function(){
+    hamburger.onclick = function () {
         const nav = document.querySelector('.navbar')
         const navbar = document.querySelector('.nav-links');
         const body = document.querySelector('body');
@@ -16,12 +16,16 @@
     }
 
     new ClipboardJS('.btn');
-    var copyEmail = document.querySelector('#copyEmail');
-    copyEmail.onclick = function() {
-        copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiado";
-        setTimeout(function() {
-                copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiar Email";
-            }, 800);
+    var copyEmail = document.querySelector('#copyEmail p');
+    copyEmail.onclick = function () {
+        copyEmail.innerHTML = "Copiado";
+        setTimeout(function () {
+            copyEmail.innerHTML = "Copiar Email";
+        }, 1600);
     };
+
+    let footerAno = document.querySelector("#ano")
+    let ano = new Date().getFullYear()
+    footerAno.innerHTML = `${ano} | Enzo Lima`
 
 </script>

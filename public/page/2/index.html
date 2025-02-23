@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.124.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.144.2">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content=Um&#32;Designer&#32;que&#32;gosta&#32;de&#32;bons&#32;filmes,&#32;música&#32;e&#32;Open&#32;Source.>
@@ -16,19 +16,24 @@
 <link rel="stylesheet" href="/styles/navbar.css">
 <link rel="stylesheet" href="/styles/single.css">
 <link rel="stylesheet" href="/styles/library.css">
+<link rel="stylesheet" href="/styles/produtos.css">
 </head>
 
 <body>
     <section class="navbar">
     <div class="nav-title">
-        <a href="/"><h1 class="thenzolima">THENZOLIMA</h1></a>
+        <a href="/">
+            <h1 class="thenzolima">THENZOLIMA</h1>
+        </a>
         <ion-icon name="chevron-forward-circle-outline" class="nav-btn"></ion-icon>
     </div>
-        <div class="nav-links">
-            <a href="/artigos">Artigos</a>
-            <a href="https://tally.so/r/npKkLV" class="nav-contact-m" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
-            <a class="nav-contact" href="https://tally.so/r/npKkLV" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
-        </div>
+    <div class="nav-links">
+        <a href="/artigos">Artigos</a>
+        <a href="https://thenzolima.substack.com" class="nav-contact-m" target="_blank" rel="noopener noreferrer">Minha
+            Newsletter</a>
+        <a class="nav-contact" href="https://thenzolima.substack.com" target="_blank" rel="noopener noreferrer">Minha
+            Newsletter</a>
+    </div>
     </div>
 </section>
     
@@ -45,9 +50,14 @@
         <p>Também <a href="/artigos">escrevo</a> artigos, análises e experiências de assuntos que me interessa, como se fosse um backup da minha mente.</p>
 
         <div class="redes">
-    <a href="https://github.com/thenzolima" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Github" class="btn-style"><ion-icon name="logo-github"></ion-icon></a>
-    <a href="https://www.instagram.com/thenzolima/" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Instagram" class="btn-style"><ion-icon name="logo-instagram"></ion-icon></a>
-    <button  id="copyEmail" class="btn-style btn" data-clipboard-text="contato@thenzolima.com.br"><ion-icon name="at"></ion-icon>Copiar Email</button>
+    <a href="https://github.com/thenzolima" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Github"
+        class="btn-style"><ion-icon name="logo-github"></ion-icon></a>
+    <a href="https://www.instagram.com/thenzolima/" target="_blank" rel="noopener noreferrer"
+        aria-label="Link do meu Instagram" class="btn-style"><ion-icon name="logo-instagram"></ion-icon></a>
+        <button id="copyEmail" class="btn-style btn" data-clipboard-text="contato@thenzolima.com.br">
+            <ion-icon name="at"></ion-icon> <p class="btn-text">Copiar Email</p>
+        </button>        
+    <button class="btn-style"><ion-icon name="thumbs-up"></ion-icon> 0</button>
 </div>
     </section>
 
@@ -59,7 +69,7 @@
             <a href="/artigos">Ver todos</a>
         </div>
         
-        <a href="http://localhost:1313/artigos/minha-experiencia-linux/" class="listItens">
+        <a href="https://thenzolima.com.br/artigos/minha-experiencia-linux/" class="listItens">
             <p class="title">Minha experiência com Linux no Desktop.</p>
             <p class="date">03-07-2022</p>
         </a>
@@ -68,7 +78,7 @@
 </main>
 
     <footer>
-    <p>2024 | Enzo Lima</p>
+    <p id="ano"></p>
     <p>Build with Hugo</p>
 </footer>
 
@@ -78,7 +88,7 @@
 <script>
     const hamburger = document.querySelector('.nav-btn');
 
-    hamburger.onclick = function(){
+    hamburger.onclick = function () {
         const nav = document.querySelector('.navbar')
         const navbar = document.querySelector('.nav-links');
         const body = document.querySelector('body');
@@ -90,13 +100,17 @@
     }
 
     new ClipboardJS('.btn');
-    var copyEmail = document.querySelector('#copyEmail');
-    copyEmail.onclick = function() {
-        copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiado";
-        setTimeout(function() {
-                copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiar Email";
-            }, 800);
+    var copyEmail = document.querySelector('#copyEmail p');
+    copyEmail.onclick = function () {
+        copyEmail.innerHTML = "Copiado";
+        setTimeout(function () {
+            copyEmail.innerHTML = "Copiar Email";
+        }, 1600);
     };
+
+    let footerAno = document.querySelector("#ano")
+    let ano = new Date().getFullYear()
+    footerAno.innerHTML = `${ano} | Enzo Lima`
 
 </script>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content=Gostando&#32;ou&#32;não&#32;de&#32;escrever,&#32;ter&#32;um&#32;diário&#32;é&#32;um&#32;dos&#32;melhores&#32;hábitos&#32;que&#32;alguém&#32;pode&#32;ter&#32;para&#32;a&#32;sua&#32;vida.>
@@ -15,19 +15,24 @@
 <link rel="stylesheet" href="/styles/navbar.css">
 <link rel="stylesheet" href="/styles/single.css">
 <link rel="stylesheet" href="/styles/library.css">
+<link rel="stylesheet" href="/styles/produtos.css">
 </head>
 
 <body>
     <section class="navbar">
     <div class="nav-title">
-        <a href="/"><h1 class="thenzolima">THENZOLIMA</h1></a>
+        <a href="/">
+            <h1 class="thenzolima">THENZOLIMA</h1>
+        </a>
         <ion-icon name="chevron-forward-circle-outline" class="nav-btn"></ion-icon>
     </div>
-        <div class="nav-links">
-            <a href="/artigos">Artigos</a>
-            <a href="https://tally.so/r/npKkLV" class="nav-contact-m" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
-            <a class="nav-contact" href="https://tally.so/r/npKkLV" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
-        </div>
+    <div class="nav-links">
+        <a href="/artigos">Artigos</a>
+        <a href="https://thenzolima.substack.com" class="nav-contact-m" target="_blank" rel="noopener noreferrer">Minha
+            Newsletter</a>
+        <a class="nav-contact" href="https://thenzolima.substack.com" target="_blank" rel="noopener noreferrer">Minha
+            Newsletter</a>
+    </div>
     </div>
 </section>
     
@@ -58,22 +63,26 @@
 <p>Enfim, este diário é com certeza uma das coisas mais importantes que me aconteceu neste ano, algo tão simples e ao mesmo tempo tão simbólico.</p>
 <p>Recomendo esse hábito para qualquer um. Tire um tempo no final do seu dia, reflita sobre o que aconteceu e coloque tudo para fora, seja em um papel ou no seu bloco de notas. O que importa é fazer!</p>
 <blockquote>
-<p>“Nunca viajo sem o meu diário. É preciso ter sempre algo extraordinário para ler no comboio.” — Oscar Wilde</p>
-</blockquote>
+<p>“Nunca viajo sem o meu diário. É preciso ter sempre algo extraordinário para ler no comboio.” — Oscar Wilde</p></blockquote>
 <hr>
 <p>Vou ficando por aqui, espero que tenha gostado do conteúdo.</p>
 <p>Espero que tenha curtido a leitura. Não deixe de compartilhar para alguém próximo que pode se beneficiar lendo isso.</p>
 
     </div>
     <div class="redes">
-    <a href="https://github.com/thenzolima" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Github" class="btn-style"><ion-icon name="logo-github"></ion-icon></a>
-    <a href="https://www.instagram.com/thenzolima/" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Instagram" class="btn-style"><ion-icon name="logo-instagram"></ion-icon></a>
-    <button  id="copyEmail" class="btn-style btn" data-clipboard-text="contato@thenzolima.com.br"><ion-icon name="at"></ion-icon>Copiar Email</button>
+    <a href="https://github.com/thenzolima" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Github"
+        class="btn-style"><ion-icon name="logo-github"></ion-icon></a>
+    <a href="https://www.instagram.com/thenzolima/" target="_blank" rel="noopener noreferrer"
+        aria-label="Link do meu Instagram" class="btn-style"><ion-icon name="logo-instagram"></ion-icon></a>
+        <button id="copyEmail" class="btn-style btn" data-clipboard-text="contato@thenzolima.com.br">
+            <ion-icon name="at"></ion-icon> <p class="btn-text">Copiar Email</p>
+        </button>        
+    <button class="btn-style"><ion-icon name="thumbs-up"></ion-icon> 0</button>
 </div>
 </div>
 
     <footer>
-    <p>2024 | Enzo Lima</p>
+    <p id="ano"></p>
     <p>Build with Hugo</p>
 </footer>
 
@@ -83,7 +92,7 @@
 <script>
     const hamburger = document.querySelector('.nav-btn');
 
-    hamburger.onclick = function(){
+    hamburger.onclick = function () {
         const nav = document.querySelector('.navbar')
         const navbar = document.querySelector('.nav-links');
         const body = document.querySelector('body');
@@ -95,13 +104,17 @@
     }
 
     new ClipboardJS('.btn');
-    var copyEmail = document.querySelector('#copyEmail');
-    copyEmail.onclick = function() {
-        copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiado";
-        setTimeout(function() {
-                copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiar Email";
-            }, 800);
+    var copyEmail = document.querySelector('#copyEmail p');
+    copyEmail.onclick = function () {
+        copyEmail.innerHTML = "Copiado";
+        setTimeout(function () {
+            copyEmail.innerHTML = "Copiar Email";
+        }, 1600);
     };
+
+    let footerAno = document.querySelector("#ano")
+    let ano = new Date().getFullYear()
+    footerAno.innerHTML = `${ano} | Enzo Lima`
 
 </script>
 

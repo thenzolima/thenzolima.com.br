@@ -1,6 +1,6 @@
 +++
 title= 'Sobre as Redes Sociais Atualmente'
-date= 2024-12-25
+date= 2026-12-25
 draft= false
 description= 'Uma breve reflexão sobre as redes sociais nos dias de hoje.'
 +++

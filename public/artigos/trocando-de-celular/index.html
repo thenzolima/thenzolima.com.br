@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content=Minha&#32;experiência&#32;trocando&#32;de&#32;smartphone.>
@@ -15,19 +15,24 @@
 <link rel="stylesheet" href="/styles/navbar.css">
 <link rel="stylesheet" href="/styles/single.css">
 <link rel="stylesheet" href="/styles/library.css">
+<link rel="stylesheet" href="/styles/produtos.css">
 </head>
 
 <body>
     <section class="navbar">
     <div class="nav-title">
-        <a href="/"><h1 class="thenzolima">THENZOLIMA</h1></a>
+        <a href="/">
+            <h1 class="thenzolima">THENZOLIMA</h1>
+        </a>
         <ion-icon name="chevron-forward-circle-outline" class="nav-btn"></ion-icon>
     </div>
-        <div class="nav-links">
-            <a href="/artigos">Artigos</a>
-            <a href="https://tally.so/r/npKkLV" class="nav-contact-m" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
-            <a class="nav-contact" href="https://tally.so/r/npKkLV" target="_blank" rel="noopener noreferrer">Trabalhe comigo</a>
-        </div>
+    <div class="nav-links">
+        <a href="/artigos">Artigos</a>
+        <a href="https://thenzolima.substack.com" class="nav-contact-m" target="_blank" rel="noopener noreferrer">Minha
+            Newsletter</a>
+        <a class="nav-contact" href="https://thenzolima.substack.com" target="_blank" rel="noopener noreferrer">Minha
+            Newsletter</a>
+    </div>
     </div>
 </section>
     
@@ -102,10 +107,9 @@
 <p><img src="img/a54-bateria.png" alt="a54-bateria"></p>
 <p><strong>Câmeras</strong></p>
 <p>Voltando às coisas boas do aparelho, a câmera é ótima. Esse assunto sempre dividiu opiniões dos usuários em relação aos dispositivos da Samsung, mas é um fato que esse celular não deixa a desejar em suas fotos e gravações. Estarei devendo testes com ele aqui. Por isso, estarei indicando a análise do Gesiel Taveira do aparelho (pule para o momento 16:34):</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/PZeLKRKzYIU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/PZeLKRKzYIU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 <h2 id="conclusão">Conclusão</h2>
 <p>Tenho feito bom proveito do Galaxy A54, foi minha primeira experiência com um intermediário (quase premium). Às vezes sinto que usar ele no meu dia a dia é como usar um machado para cortar um papel.</p>
@@ -117,14 +121,19 @@
 
     </div>
     <div class="redes">
-    <a href="https://github.com/thenzolima" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Github" class="btn-style"><ion-icon name="logo-github"></ion-icon></a>
-    <a href="https://www.instagram.com/thenzolima/" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Instagram" class="btn-style"><ion-icon name="logo-instagram"></ion-icon></a>
-    <button  id="copyEmail" class="btn-style btn" data-clipboard-text="contato@thenzolima.com.br"><ion-icon name="at"></ion-icon>Copiar Email</button>
+    <a href="https://github.com/thenzolima" target="_blank" rel="noopener noreferrer" aria-label="Link do meu Github"
+        class="btn-style"><ion-icon name="logo-github"></ion-icon></a>
+    <a href="https://www.instagram.com/thenzolima/" target="_blank" rel="noopener noreferrer"
+        aria-label="Link do meu Instagram" class="btn-style"><ion-icon name="logo-instagram"></ion-icon></a>
+        <button id="copyEmail" class="btn-style btn" data-clipboard-text="contato@thenzolima.com.br">
+            <ion-icon name="at"></ion-icon> <p class="btn-text">Copiar Email</p>
+        </button>        
+    <button class="btn-style"><ion-icon name="thumbs-up"></ion-icon> 0</button>
 </div>
 </div>
 
     <footer>
-    <p>2024 | Enzo Lima</p>
+    <p id="ano"></p>
     <p>Build with Hugo</p>
 </footer>
 
@@ -134,7 +143,7 @@
 <script>
     const hamburger = document.querySelector('.nav-btn');
 
-    hamburger.onclick = function(){
+    hamburger.onclick = function () {
         const nav = document.querySelector('.navbar')
         const navbar = document.querySelector('.nav-links');
         const body = document.querySelector('body');
@@ -146,13 +155,17 @@
     }
 
     new ClipboardJS('.btn');
-    var copyEmail = document.querySelector('#copyEmail');
-    copyEmail.onclick = function() {
-        copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiado";
-        setTimeout(function() {
-                copyEmail.innerHTML = "<ion-icon name='at'></ion-icon> Copiar Email";
-            }, 800);
+    var copyEmail = document.querySelector('#copyEmail p');
+    copyEmail.onclick = function () {
+        copyEmail.innerHTML = "Copiado";
+        setTimeout(function () {
+            copyEmail.innerHTML = "Copiar Email";
+        }, 1600);
     };
+
+    let footerAno = document.querySelector("#ano")
+    let ano = new Date().getFullYear()
+    footerAno.innerHTML = `${ano} | Enzo Lima`
 
 </script>
 
