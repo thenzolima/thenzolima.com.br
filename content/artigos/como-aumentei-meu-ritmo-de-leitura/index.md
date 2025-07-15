@@ -14,15 +14,15 @@ Até que chegou um momento em que decidi arriscar. Passei um tempo me organizand
 
 OBS: Essa análise será baseada na minha experiência com o modelo Paperwhite de 11º Geração.
 
-O Kindle é o leitor digital da Amazon, presente no mercado há quase duas décadas, sempre recebendo melhorias. Inclusive, recentemente lançaram uma versão com suporte a cores. Seu maior diferencial está na tela com tecnologia _e-ink_, que simula o papel, oferecendo uma leitura confortável, mesmo sob luz natural intensa — sem precisar acionar a iluminação embutida. Isso o torna muito menos cansativo para os olhos, especialmente se comparado às telas de LED que usamos o tempo todo.
+O Kindle é o leitor digital da [Amazon](https://amzn.to/4kDhP4c). O maior diferencial dessa categoria de dispositivos está na tela, que geralmente possuem a tecnologia _e-ink_, que simula o papel, oferecendo uma leitura confortável, mesmo sob luz natural intensa — sem precisar acionar a iluminação embutida. Isso o torna muito menos cansativo para os olhos, especialmente se comparado às telas de LED que usamos o tempo todo.
 
-Além da tela, o fato de o Kindle ser um dispositivo dedicado à leitura ajuda o leitor a manter o foco no conteúdo. O sistema dele é consideravelmente limitado. Há possibilidade de desbloqueio e adição de novas funcionalidades, mas gosto das limitações por estar alinhado com o que eu espero do dispositivo.
+Além da tela, o fato do dispositivo ser dedicado à leitura ajuda o leitor a manter o foco no conteúdo. O sistema do Kindle é consideravelmente limitado. Há possibilidade de desbloqueio e adição de novas funcionalidades, mas gosto das limitações por estar alinhado com o que eu espero do dispositivo.
 
 Entretanto, o Kindle online me incomoda. A interface exibe recomendações da loja da Amazon e do Kindle Unlimited mesmo quando você não é assinante. É poluído para um dispositivo que deveria oferecer imersão. Por isso, prefiro usá-lo offline.
 
-Para transferir livros, tem o "Send to Kindle" — funciona bem, mas é preciso estar conectado. Por isso, uso o software [Calibre](https://calibre-ebook.com/), que considero excelente para organizar minha biblioteca. Ele permite conversões, ajustes de metadados e edição (caso o arquivo não tenha DRM). Meus formatos preferidos são EPUB e AZW3, por serem mais flexíveis e personalizáveis que o KFX, por exemplo.
+Para transferir livros, a Amazon oferece "Send to Kindle" para seus dispositivos. Funciona bem, mas é preciso estar conectado. Por isso, uso o software [Calibre](https://calibre-ebook.com/), que considero excelente para organizar minha biblioteca. Ele permite conversões, ajustes de metadados e edição (caso o arquivo não tenha DRM). Meus formatos preferidos são EPUB e AZW3, por serem mais flexíveis e personalizáveis que o KFX, por exemplo.
 
-É verdade, a bateria dele dura bastante tempo. Tendo um uso equilibrado no modo avião e brilho baixo, consigo uma média de menos de 10% por semana.
+É verdade, a bateria desses aparelhos dura bastante tempo. Tendo um uso equilibrado no modo avião e brilho baixo, consigo uma média de menos de 10% por semana.
   
 Com o dispositivo, meu ritmo de leitura melhorou bastante. Aqueles obstáculos iniciais deixaram de existir, provando que o que me impedia era a falta de praticidade e os inúmeros obstáculos até conseguir, de fato, mergulhar na leitura.
 
