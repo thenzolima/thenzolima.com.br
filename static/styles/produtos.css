@@ -7,9 +7,8 @@
 
 .produto-item {
     display: flex;
-    flex-direction: column;
     text-align: start;
-    width: 320px;
+    gap: 1rem;
 }
 
 .produto-content {
@@ -29,7 +28,7 @@
 }
 
 .produto-item img {
-    width: 100%
+    width: 320px;
 }
 
 #price-area{
@@ -64,6 +63,12 @@
         gap: 2rem;
     }
     .produto-item{
-        width: 100%
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .produto-item img{
+        width: 100%;
     }
 }

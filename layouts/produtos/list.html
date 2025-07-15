@@ -6,13 +6,15 @@
     {{ range .Site.Data.produtos.data }}
     <article class="produto-item">
       <img src="{{ .img }}" alt="">
-      <div class="produto-content">
-        <h2>{{ .title }}</h2>
-        <p>{{ .description }}</p>
-      </div>
-      <div id="price-area">
-        <span>{{.price}}</span>
-        <button class="btn-style">Compre agora</button>
+      <div class="container-produto">
+        <div class="produto-content">
+          <h2>{{ .title }}</h2>
+          <p>{{ .description }}</p>
+        </div>
+        <div id="price-area">
+          <span>{{.price}}</span>
+          <button class="btn-style">Compre agora</button>
+        </div>
       </div>
     </article>
     {{ end }}
