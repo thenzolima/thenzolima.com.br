@@ -10,7 +10,7 @@ export async function GET(context) {
     items: artigos.map((postagem) => ({
       title: postagem.data.titulo,
       pubDate: postagem.data.dataPub,
-      description: postagem.data.descricao,
+      description: postagem.data.description,
       link: `/artigos/${postagem.slug}/`,
     })),
   });
