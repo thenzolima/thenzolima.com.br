@@ -1,0 +1,56 @@
+---
+import Main from "@/components/Main.astro";
+import Layout from "@/layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+import { formatarData } from "@/components/PostList.astro";
+
+// 1. Função que define as rotas estáticas
+export const getStaticPaths = async () => {
+    const artigos = await getCollection("artigos");
+    return artigos.map((artigo) => ({
+        params: { slug: artigo.slug },
+        props: { artigo },
+    }));
+};
+
+// 2. Define o tipo da prop recebida
+type Props = {
+    artigo: CollectionEntry<"artigos">;
+};
+
+// 3. Recupera props e conteúdo renderizado
+const { artigo } = Astro.props;
+const { Content } = await artigo.render();
+---
+
+<!-- 4. Layout e renderização do conteúdo do artigo -->
+<Layout title={artigo.data.title}>
+    <Main>
+        <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-2">
+                <p class="flex flex-row text-neutral-400">
+                    {formatarData(artigo.data.pubDate)}
+                </p>
+                <h1 class="text-2xl font-medium">
+                    {artigo.data.title}
+                </h1>
+                <Image
+                    src={artigo.data.heroImage}
+                    alt={artigo.data.title}
+                    class="rounded-sm"
+                    width={800}
+                    height={450}
+                />
+            </div>
+            <div class="flex items-center justify-center w-full">
+                <div
+                    class="prose prose-neutral leading-normal dark:prose-invert prose-headings:mb-2 prose-img:m-auto prose-img:rounded-sm prose-hr:my-8 prose-hr:bg-neutral-800 prose-hr:h-px prose-hr:border-0 prose-a:text-rose-400 prose-a:no-underline prose-a:hover:underline prose-headings:mt-2"
+                >
+                    <Content />
+                </div>
+            </div>
+        </div>
+    </Main>
+</Layout>

@@ -1,0 +1,17 @@
+import Redes from "@/components/Redes.astro";
+import { ProfileCarousel } from "@/components/ProfileCarousel.tsx";
+
+<section class="flex flex-col gap-4">
+<ProfileCarousel client:load />
+  <h1 class="text-2xl font-semibold principal">
+    Criando experiências digitais com propósito e identidade.
+  </h1>
+<div className="flex flex-col gap-2 text-neutral-300">
+
+Olá, me chamo Enzo - Product Designer com foco em experiência digital. Utilizo do branding e desenvolvimento para transformar ideias em produtos funcionais, acessíveis e visualmente coerentes.
+ 
+Saiba mais <a href="/sobre" className="principal">sobre minha trajetória →</a>
+
+</div>
+  <Redes />
+</section>
