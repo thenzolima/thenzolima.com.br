@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/card";
 
 const {
+  customStyleContainer,
   customStyleTitle,
   customStyleDescription,
   customStyleContent,
@@ -19,6 +20,9 @@ const {
 
 <Card>
   <CardHeader>
+    <div id="container" class={customStyleContainer}>
+      <slot name="container" />
+    </div>
     <CardTitle className={customStyleTitle}>
       <slot name="title" />
     </CardTitle>

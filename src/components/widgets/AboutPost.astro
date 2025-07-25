@@ -1,25 +1,22 @@
 ---
 import CustomCard from "@/components/ui/CustomCard.astro";
-import RedesIcon from "../ui/RedesIcon.astro";
-import CopyEmailButton from "../ui/CopyEmailButton";
+import { ProfileCarousel } from "@/components/widgets/ProfileCarousel.tsx";
+import Redes from "./Redes.astro";
 ---
 
 <CustomCard
   customStyleTitle="font-bold"
-  customStyleContent="prose prose-neutral leading-normal dark:prose-invert prose-p:mb-0 -mt-6 prose-img:m-auto prose-img:rounded-sm prose-hr:my-8"
+  customStyleContent="prose prose-neutral leading-normal dark:prose-invert prose-p:mb-0 -mt-6 prose-img:m-auto prose-img:rounded-sm prose-hr:my-8 prose-p:mt-2"
 >
+  <div slot="container" class="object-cover mb-2">
+    <ProfileCarousel client:load style="w-[60px] h-[60px] rounded-sm overflow-hidden border-2"/>
+  </div>
   <div slot="title">Olá, me chamo Enzo</div>
 
   {" "}
 
   <div slot="description">
     Product Designer com foco em experiência digital.
-  </div>
-
-  {" "}
-
-  <div slot="action">
-    <RedesIcon />
   </div>
 
   {" "}
@@ -37,6 +34,6 @@ import CopyEmailButton from "../ui/CopyEmailButton";
     </p>
   </div>
   <div slot="footer">
-    <CopyEmailButton client:load />
+    <Redes />
   </div>
 </CustomCard>
