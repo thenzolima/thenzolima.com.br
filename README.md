@@ -1,6 +1,6 @@
 # thenzolima.com.br
 
-This is my personal website. Made using [Astro](https://astro.build/), some [shadcn/ui](https://ui.shadcn.com/) components, and [Tailwind](https://tailwindcss.com/).
+My personal website made using [Astro](https://astro.build/) + [Tailwind](https://tailwindcss.com/) + [MDX](https://mdxjs.com/)
 
 ## Running locally
 
