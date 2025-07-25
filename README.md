@@ -28,3 +28,6 @@ npm install
 npm run dev
 ```
 
+> [!IMPORTANT]
+> Feel free to use any part of the code or draw inspiration from it, but don’t expect it to work just by copying and running it. Use this website only as a source of inspiration and reference.
+
