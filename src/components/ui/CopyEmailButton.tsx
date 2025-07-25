@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { AtSign } from "lucide-react";
+
 export default function CopyEmailButton() {
     const [copied, setCopied] = useState(false);
 
-    const email = "contato@thenzolima.com.br";
+    const email = "enzo@labrau.com.br";
 
     const handleCopy = () => {
         navigator.clipboard.writeText(email).then(() => {
@@ -15,7 +16,7 @@ export default function CopyEmailButton() {
 
     return (
         <Button variant="outline" onClick={handleCopy}>
-            <AtSign/> {copied ? "Copiado!" : "Copiar Email"}
+            <AtSign /> {copied ? "Copiado!" : "Copiar Email"}
         </Button>
     );
 }

@@ -5,7 +5,7 @@ const { limit } = Astro.props;
 let artigos = await getCollection("artigos", ({ data }) => !data.draft);
 artigos = artigos.sort(
   (a, b) =>
-    new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime(),
+    new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
 );
 
 if (typeof limit === "number") {

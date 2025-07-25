@@ -1,0 +1,23 @@
+---
+import usesData from "@/content/uses/uses";
+import { Image } from "astro:assets";
+---
+
+<article class="flex flex-col gap-5">
+  {
+    usesData.map((section) => (
+      <section>
+        <h3 class="font-bold principal mb-2">{section.category}</h3>
+        <ul class="grid w-full grid-cols-3 gap-x-6 gap-y-6 md:gap-x-1 lg:grid-cols-6">
+          {section.items.map((item) => (
+            <li class="flex flex-col items-center text-center justify-center">
+              <Image src={item.icon} alt={item.name} width={54} height={54} />
+              <strong>{item.name}</strong>
+              <p class="text-xs text-neutral-400">{item.description}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+</article>
