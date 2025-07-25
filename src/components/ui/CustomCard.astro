@@ -1,0 +1,38 @@
+---
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+
+const {
+  customStyleTitle,
+  customStyleDescription,
+  customStyleContent,
+  customStyleFooter,
+} = Astro.props;
+---
+
+<Card>
+  <CardHeader>
+    <CardTitle className={customStyleTitle}>
+      <slot name="title" />
+    </CardTitle>
+    <CardDescription className={customStyleDescription}>
+      <slot name="description" />
+    </CardDescription>
+    <CardAction>
+      <slot name="action" />
+    </CardAction>
+  </CardHeader>
+  <CardContent className={customStyleContent}>
+    <slot name="content" />
+  </CardContent>
+  <CardFooter className={customStyleFooter}>
+    <slot name="footer" />
+  </CardFooter>
+</Card>

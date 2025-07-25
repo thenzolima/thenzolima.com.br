@@ -1,0 +1,42 @@
+---
+import CustomCard from "@/components/ui/CustomCard.astro";
+import RedesIcon from "../ui/RedesIcon.astro";
+import CopyEmailButton from "../ui/CopyEmailButton";
+---
+
+<CustomCard
+  customStyleTitle="font-bold"
+  customStyleContent="prose prose-neutral leading-normal dark:prose-invert prose-p:mb-0 -mt-6 prose-img:m-auto prose-img:rounded-sm prose-hr:my-8"
+>
+  <div slot="title">Olá, me chamo Enzo</div>
+
+  {" "}
+
+  <div slot="description">
+    Product Designer com foco em experiência digital.
+  </div>
+
+  {" "}
+
+  <div slot="action">
+    <RedesIcon />
+  </div>
+
+  {" "}
+
+  <div slot="content">
+    <p>
+      Utilizo do branding e desenvolvimento para transformar ideias em produtos
+      funcionais, acessíveis e visualmente coerentes. Atualmente fundando um
+      coletivo criativo.
+    </p>
+    <p>
+      Se você busca alguém que para lhe ajudar a transformar ideias em produtos
+      funcionais, ou em seu posicionamento no digital, talvez a gente deva
+      conversar.
+    </p>
+  </div>
+  <div slot="footer">
+    <CopyEmailButton client:load />
+  </div>
+</CustomCard>
