@@ -2,19 +2,25 @@
 import Layout from "../layouts/Layout.astro";
 import Hero from "@/components/widgets/Hero.astro";
 import PostList from "@/components/widgets/PostList.astro";
+import Sandbox from "@/components/widgets/Sandbox.astro";
 ---
 
 <Layout
   title="thenzolima"
   description="Product Designer com foco em experiência digital. Utilizo do branding e desenvolvimento para transformar ideias em produtos funcionais, acessíveis e visualmente coerentes."
 >
-  <Hero />
-  <PostList limit={5}>
-    <article class="flex justify-between items-center mb-4">
-      <h1 class="font-bold principal">Últimos textos</h1>
-      <a href="/artigos" class="hover:text-rose-200 text-sm">
-        Ver todos os artigos →
-      </a>
-    </article>
-  </PostList>
+  <div class="flex flex-col gap-8">
+    <Hero />
+    <Sandbox>
+      <h1 class="principal mb-2 uppercase font-semibold">PRINCIPAIS PROJETOS</h1>
+    </Sandbox>
+    <PostList limit={5}>
+      <article class="flex justify-between items-center mb-2">
+        <h1 class="principal uppercase font-semibold">Últimos textos</h1>
+        <a href="/artigos" class="hover:text-rose-200 text-sm">
+          Ver todos os artigos →
+        </a>
+      </article>
+    </PostList>
+  </div>
 </Layout>
