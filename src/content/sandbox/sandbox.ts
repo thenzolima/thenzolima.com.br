@@ -1,10 +1,11 @@
 const sandboxData = [
   {
     name: "Scot Scot",
-    description: "Desenvolvedora",
+    description: "Jogo Educativo",
     icon: "/assets/sandbox/SCOT.webp",
     category: "Branding",
     date: "OUT 2022",
+    link:""
   },
   {
     name: "Meu Cartão TEA",
@@ -12,6 +13,7 @@ const sandboxData = [
     icon: "/assets/sandbox/TEA.webp",
     category: "Branding",
     date: "JUL 2025",
+    link:""
   },
   {
     name: "Labrau",
@@ -19,6 +21,7 @@ const sandboxData = [
     icon: "/assets/sandbox/LABRAU.webp",
     category: "Branding",
     date: "JUL 2025",
+    link:""
   },
 ];
 

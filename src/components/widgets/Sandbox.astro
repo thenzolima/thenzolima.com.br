@@ -11,11 +11,13 @@ import Posterpack from "./Posterpack.astro";
       {
         sandboxData.map((section) => (
           <div class="flex flex-col gap-1">
-            <img src={section.icon} alt={section.name} />
-            <div class="">
-              <p>{section.name}</p>
-              <p class="text-neutral-400">{section.description}</p>
-            </div>
+            <a href={section.link}>
+              <img src={section.icon} alt={section.name} />
+              <div class="">
+                <p>{section.name}</p>
+                <p class="text-neutral-400">{section.description}</p>
+              </div>
+            </a>
           </div>
         ))
       }
