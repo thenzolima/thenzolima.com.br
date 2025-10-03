@@ -1,11 +1,12 @@
 ---
 import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 const { limit } = Astro.props;
 
 let artigos = await getCollection("artigos", ({ data }) => !data.draft);
 artigos = artigos.sort(
   (a, b) =>
-    new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+    new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime(),
 );
 
 if (typeof limit === "number") {
@@ -27,16 +28,20 @@ export function formatarData(pubDate: string): string {
   <article class="flex flex-col gap-2">
     {
       artigos.map((p) => (
-        <a
-          href={`/artigos/${p.slug}`}
-          class="flex justify-between items-center w-full min-w-0 gap-x-4"
-        >
-          <p class="whitespace-nowrap overflow-hidden text-ellipsis">
-            {p.data.title}
-          </p>
-          <p class="text-sm whitespace-nowrap text-right text-neutral-400">
-            {formatarData(p.data.pubDate)}
-          </p>
+        <a href={`/artigos/${p.slug}`} class="flex w-full min-w-0 gap-x-4">
+          <div class="w-[52px] h-[52px] overflow-hidden rounded-sm">
+            <Image
+              src={p.data.heroImage}
+              alt={p.data.title}
+              class="object-cover w-full h-full"
+            />
+          </div>
+          <div class="flex flex-col">
+            <p class="">{p.data.title}</p>
+            <p class="text-sm text-neutral-400">
+              {formatarData(p.data.pubDate)}
+            </p>
+          </div>
         </a>
       ))
     }

@@ -29,12 +29,14 @@ const { Content } = await artigo.render();
 <Layout title={artigo.data.title}>
   <div class="flex flex-col gap-4">
     <div class="flex flex-col gap-2">
-      <p class="flex flex-row text-neutral-400">
-        {formatarData(artigo.data.pubDate)}
-      </p>
-      <h1 class="text-2xl font-medium">
-        {artigo.data.title}
-      </h1>
+      <div class="mb-4">
+        <h1 class="text-2xl font-medium">
+          {artigo.data.title}
+        </h1>
+        <p class="flex flex-row text-neutral-400">
+          {formatarData(artigo.data.pubDate)}
+        </p>
+      </div>
       <Image
         src={artigo.data.heroImage}
         alt={artigo.data.title}
